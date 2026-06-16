@@ -1,0 +1,4 @@
+wokwi_sim/build/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,55 @@
+version: 1
+name: Chaotic Kitchen
+
+steps:
+
+  - delay: 1000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.15
+
+  - delay: 10000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.45
+
+  - delay: 8000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.25
+
+  - delay: 7000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.55
+
+  - delay: 8000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.20
+
+  - delay: 12000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.60
+
+  - delay: 15000ms
+
+  - set-control:
+      part-id: pot1
+      control: position
+      value: 0.10
+
+  - delay: 30000ms

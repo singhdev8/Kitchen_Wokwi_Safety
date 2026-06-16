@@ -1,0 +1,53 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+================================
+  Smart Kitchen Safety System
+  Layer 1 Rule Engine ACTIVE
+================================
+Time | Temp  | Gas   | PIR | Status
+-----+-------+-------+-----+-------
+1s	| 73.0C	| 300 ppm	| NO	| SAFE
+2s	| 73.0C	| 300 ppm	| NO	| SAFE
+3s	| 73.0C	| 300 ppm	| NO	| SAFE
+4s	| 73.0C	| 300 ppm	| NO	| SAFE
+5s	| 73.0C	| 300 ppm	| NO	| SAFE
+6s	| 73.0C	| 300 ppm	| NO	| SAFE
+7s	| 73.0C	| 300 ppm	| NO	| SAFE
+8s	| 73.0C	| 300 ppm	| NO	| SAFE
+9s	| 73.0C	| 300 ppm	| NO	| SAFE
+10s	| 73.0C	| 300 ppm	| NO	| SAFE
+11s	| 73.0C	| 300 ppm	| NO	| SAFE
+12s	| 73.0C	| 300 ppm	| NO	| SAFE
+13s	| 73.0C	| 300 ppm	| NO	| SAFE
+14s	| 73.0C	| 300 ppm	| NO	| SAFE
+15s	| 73.0C	| 300 ppm	| NO	| SAFE
+16s	| 73.0C	| 300 ppm	| NO	| SAFE
+17s	| 73.0C	| 300 ppm	| NO	| SAFE
+18s	| 73.0C	| 300 ppm	| NO	| SAFE
+19s	| 73.0C	| 300 ppm	| NO	| SAFE
+20s	| 73.0C	| 300 ppm	| NO	| SAFE
+21s	| 73.0C	| 300 ppm	| NO	| SAFE
+22s	| 73.0C	| 319 ppm	| NO	| SAFE
+23s	| 73.0C	| 319 ppm	| NO	| SAFE
+24s	| 73.0C	| 319 ppm	| NO	| SAFE
+25s	| 73.0C	| 319 ppm	| NO	| SAFE
+26s	| 73.0C	| 319 ppm	| NO	| SAFE
+27s	| 73.0C	| 319 ppm	| NO	| SAFE
+28s	| 73.0C	| 319 ppm	| NO	| SAFE
+29s	| 73.0C	| 319 ppm	| NO	| SAFE
+30s	| 73.0C	| 319 ppm	| NO	| SAFE
+31s	| 73.0C	| 400 ppm	| NO	| RULE 2 FIRED — GAS LEAK
+================================
+!!  SHUTOFF TRIGGERED  !!
+    Reason : GAS LEAK
+    Time   : 31s
+================================

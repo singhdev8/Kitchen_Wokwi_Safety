@@ -1,0 +1,35 @@
+1s   | 30.0C | 0ppm   | NO | SAFE
+2s   | 30.0C | 5ppm   | NO | SAFE
+3s   | 30.0C | 10ppm  | NO | SAFE
+4s   | 30.0C | 15ppm  | NO | SAFE
+5s   | 30.0C | 20ppm  | NO | SAFE
+6s   | 30.0C | 25ppm  | NO | SAFE
+7s   | 30.0C | 30ppm  | NO | SAFE
+8s   | 30.0C | 35ppm  | NO | SAFE
+9s   | 30.0C | 40ppm  | NO | SAFE
+10s  | 30.0C | 45ppm  | NO | SAFE
+11s  | 30.0C | 50ppm  | NO | SAFE
+12s  | 30.0C | 55ppm  | NO | SAFE
+13s  | 30.0C | 60ppm  | NO | SAFE
+14s  | 30.0C | 70ppm  | NO | SAFE
+15s  | 30.0C | 80ppm  | NO | SAFE
+16s  | 30.0C | 90ppm  | NO | SAFE
+17s  | 30.0C | 100ppm | NO | SAFE
+18s  | 30.0C | 120ppm | NO | SAFE
+19s  | 30.0C | 140ppm | NO | SAFE
+20s  | 30.0C | 160ppm | NO | SAFE
+21s  | 30.0C | 180ppm | NO | SAFE
+22s  | 30.0C | 200ppm | NO | SAFE
+23s  | 30.0C | 220ppm | NO | SAFE
+24s  | 30.0C | 240ppm | NO | SAFE
+25s  | 30.0C | 260ppm | NO | SAFE
+26s  | 30.0C | 280ppm | NO | SAFE
+27s  | 30.0C | 300ppm | NO | SAFE
+28s  | 30.0C | 320ppm | NO | SAFE
+29s  | 30.0C | 340ppm | NO | SAFE
+30s  | 30.0C | 360ppm | NO | SAFE
+31s  | 30.0C | 380ppm | NO | SAFE
+32s  | 30.0C | 400ppm | NO | RULE 2 FIRED — GAS LEAK
+33s  | 30.0C | 420ppm | NO | RULE 2 FIRED — GAS LEAK
+34s  | 30.0C | 440ppm | NO | RULE 2 FIRED — GAS LEAK
+35s  | 30.0C | 460ppm | NO | RULE 2 FIRED — GAS LEAK

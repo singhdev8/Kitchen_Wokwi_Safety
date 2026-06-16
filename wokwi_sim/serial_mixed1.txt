@@ -1,0 +1,93 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+================================
+  Smart Kitchen Safety System
+  Layer 1 Rule Engine ACTIVE
+================================
+Time | Temp  | Gas   | PIR | Status
+-----+-------+-------+-----+-------
+1s	| 14.6C	| 50 ppm	| NO	| SAFE
+2s	| 26.3C	| 90 ppm	| NO	| SAFE
+3s	| 35.6C	| 122 ppm	| NO	| SAFE
+4s	| 43.1C	| 148 ppm	| NO	| SAFE
+5s	| 49.1C	| 168 ppm	| NO	| SAFE
+6s	| 53.9C	| 184 ppm	| NO	| SAFE
+7s	| 57.7C	| 198 ppm	| NO	| SAFE
+8s	| 60.8C	| 208 ppm	| NO	| SAFE
+9s	| 63.2C	| 216 ppm	| NO	| SAFE
+10s	| 65.2C	| 223 ppm	| NO	| SAFE
+11s	| 66.7C	| 229 ppm	| NO	| SAFE
+12s	| 68.0C	| 233 ppm	| NO	| SAFE
+13s	| 69.0C	| 236 ppm	| NO	| SAFE
+14s	| 69.8C	| 239 ppm	| NO	| SAFE
+15s	| 70.4C	| 241 ppm	| NO	| SAFE
+16s	| 70.9C	| 243 ppm	| NO	| SAFE
+17s	| 71.4C	| 274 ppm	| NO	| SAFE
+18s	| 71.7C	| 299 ppm	| NO	| SAFE
+19s	| 71.9C	| 320 ppm	| NO	| SAFE
+20s	| 72.2C	| 336 ppm	| NO	| SAFE
+21s	| 72.3C	| 349 ppm	| NO	| SAFE
+22s	| 72.5C	| 359 ppm	| NO	| SAFE
+23s	| 72.6C	| 367 ppm	| NO	| SAFE
+24s	| 72.7C	| 374 ppm	| NO	| SAFE
+25s	| 72.7C	| 379 ppm	| NO	| SAFE
+26s	| 72.8C	| 333 ppm	| NO	| SAFE
+27s	| 72.8C	| 296 ppm	| NO	| SAFE
+28s	| 72.9C	| 267 ppm	| NO	| SAFE
+29s	| 72.9C	| 243 ppm	| NO	| SAFE
+30s	| 72.9C	| 224 ppm	| NO	| SAFE
+31s	| 72.9C	| 209 ppm	| NO	| SAFE
+32s	| 72.9C	| 197 ppm	| NO	| SAFE
+33s	| 73.0C	| 188 ppm	| NO	| SAFE
+34s	| 73.0C	| 180 ppm	| NO	| SAFE
+35s	| 73.0C	| 174 ppm	| NO	| SAFE
+36s	| 73.0C	| 169 ppm	| NO	| SAFE
+37s	| 73.0C	| 165 ppm	| NO	| SAFE
+38s	| 73.0C	| 162 ppm	| NO	| SAFE
+39s	| 73.0C	| 159 ppm	| NO	| SAFE
+40s	| 73.0C	| 197 ppm	| NO	| SAFE
+41s	| 73.0C	| 227 ppm	| NO	| SAFE
+42s	| 73.0C	| 252 ppm	| NO	| SAFE
+43s	| 73.0C	| 271 ppm	| NO	| SAFE
+44s	| 73.0C	| 287 ppm	| NO	| SAFE
+45s	| 73.0C	| 299 ppm	| NO	| SAFE
+46s	| 73.0C	| 309 ppm	| NO	| SAFE
+47s	| 73.0C	| 317 ppm	| NO	| SAFE
+48s	| 73.0C	| 324 ppm	| NO	| SAFE
+49s	| 73.0C	| 299 ppm	| NO	| SAFE
+50s	| 73.0C	| 279 ppm	| NO	| SAFE
+51s	| 73.0C	| 263 ppm	| NO	| SAFE
+52s	| 73.0C	| 251 ppm	| NO	| SAFE
+53s	| 73.0C	| 240 ppm	| NO	| SAFE
+54s	| 73.0C	| 232 ppm	| NO	| SAFE
+55s	| 73.0C	| 226 ppm	| NO	| SAFE
+56s	| 73.0C	| 221 ppm	| NO	| SAFE
+57s	| 73.0C	| 217 ppm	| NO	| SAFE
+58s	| 73.0C	| 213 ppm	| NO	| SAFE
+59s	| 73.0C	| 211 ppm	| NO	| SAFE
+60s	| 73.0C	| 208 ppm	| NO	| SAFE
+61s	| 73.0C	| 207 ppm	| NO	| SAFE
+62s	| 73.0C	| 205 ppm	| NO	| SAFE
+63s	| 73.0C	| 204 ppm	| NO	| SAFE
+64s	| 73.0C	| 203 ppm	| NO	| SAFE
+65s	| 73.0C	| 203 ppm	| NO	| SAFE
+66s	| 73.0C	| 202 ppm	| NO	| SAFE
+67s	| 73.0C	| 202 ppm	| NO	| SAFE
+68s	| 73.0C	| 201 ppm	| NO	| SAFE
+69s	| 73.0C	| 201 ppm	| NO	| SAFE
+70s	| 73.0C	| 201 ppm	| NO	| SAFE
+71s	| 73.0C	| 201 ppm	| NO	| SAFE
+72s	| 73.0C	| 201 ppm	| NO	| SAFE
+73s	| 73.0C	| 200 ppm	| NO	| SAFE
+74s	| 73.0C	| 200 ppm	| NO	| SAFE
+75s	| 73.0C	| 200 ppm	| NO	| SAFE
+76s	| 73.0C	| 200 ppm	| NO	| SAFE
