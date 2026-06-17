@@ -10,7 +10,7 @@ CLASS_NAMES = ["Normal Cooking", "Milk Boilover",
                "Gas Leak", "Timeout Risk", "Flame-out"]
 
 W = 30
-CONF_THRESH = 60
+CONF_THRESH = 59
 
 # ── ROBUST PARSER (handles both new and old formats) ──────────
 def parse_line(line):
