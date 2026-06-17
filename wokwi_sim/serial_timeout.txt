@@ -1,300 +1,300 @@
-1s | 44.4C | 305ppm | YES | SAFE
-2s | 47.1C | 306ppm | YES | SAFE
-3s | 47.0C | 315ppm | YES | SAFE
-4s | 48.1C | 319ppm | YES | SAFE
-5s | 46.8C | 315ppm | YES | SAFE
-6s | 47.2C | 318ppm | YES | SAFE
-7s | 47.4C | 319ppm | YES | SAFE
-8s | 45.9C | 314ppm | YES | SAFE
-9s | 47.6C | 322ppm | YES | SAFE
-10s | 45.7C | 320ppm | YES | SAFE
-11s | 46.4C | 317ppm | YES | SAFE
-12s | 47.3C | 316ppm | YES | SAFE
-13s | 49.0C | 316ppm | YES | SAFE
-14s | 52.1C | 317ppm | YES | SAFE
-15s | 47.8C | 319ppm | YES | SAFE
-16s | 49.1C | 321ppm | YES | SAFE
-17s | 47.9C | 312ppm | YES | SAFE
-18s | 50.1C | 323ppm | YES | SAFE
-19s | 52.4C | 318ppm | YES | SAFE
-20s | 48.2C | 319ppm | YES | SAFE
-21s | 52.0C | 318ppm | YES | SAFE
-22s | 54.7C | 315ppm | YES | SAFE
-23s | 49.9C | 319ppm | YES | SAFE
-24s | 52.6C | 322ppm | YES | SAFE
-25s | 52.7C | 323ppm | YES | SAFE
-26s | 51.4C | 313ppm | YES | SAFE
-27s | 49.6C | 316ppm | YES | SAFE
-28s | 48.2C | 327ppm | YES | SAFE
-29s | 50.8C | 326ppm | YES | SAFE
-30s | 53.2C | 318ppm | YES | SAFE
-31s | 51.1C | 316ppm | YES | SAFE
-32s | 53.6C | 325ppm | YES | SAFE
-33s | 54.7C | 328ppm | YES | SAFE
-34s | 53.6C | 324ppm | YES | SAFE
-35s | 53.9C | 326ppm | YES | SAFE
-36s | 56.1C | 320ppm | YES | SAFE
-37s | 52.0C | 317ppm | YES | SAFE
-38s | 53.2C | 319ppm | YES | SAFE
-39s | 55.8C | 329ppm | YES | SAFE
-40s | 53.3C | 316ppm | YES | SAFE
-41s | 56.3C | 321ppm | YES | SAFE
-42s | 53.9C | 324ppm | YES | SAFE
-43s | 57.1C | 320ppm | YES | SAFE
-44s | 56.4C | 329ppm | YES | SAFE
-45s | 54.7C | 315ppm | YES | SAFE
-46s | 56.2C | 326ppm | YES | SAFE
-47s | 58.1C | 334ppm | YES | SAFE
-48s | 52.2C | 321ppm | YES | SAFE
-49s | 58.3C | 323ppm | YES | SAFE
-50s | 55.3C | 323ppm | YES | SAFE
-51s | 58.9C | 327ppm | YES | SAFE
-52s | 55.0C | 319ppm | YES | SAFE
-53s | 57.3C | 330ppm | YES | SAFE
-54s | 57.5C | 323ppm | YES | SAFE
-55s | 56.7C | 330ppm | YES | SAFE
-56s | 56.9C | 323ppm | YES | SAFE
-57s | 58.1C | 326ppm | YES | SAFE
-58s | 58.4C | 311ppm | YES | SAFE
-59s | 59.1C | 333ppm | YES | SAFE
-60s | 58.1C | 324ppm | YES | SAFE
-61s | 54.4C | 330ppm | YES | SAFE
-62s | 59.8C | 324ppm | YES | SAFE
-63s | 56.4C | 323ppm | YES | SAFE
-64s | 60.0C | 326ppm | YES | SAFE
-65s | 56.4C | 331ppm | YES | SAFE
-66s | 60.4C | 324ppm | YES | SAFE
-67s | 57.9C | 329ppm | YES | SAFE
-68s | 58.8C | 325ppm | YES | SAFE
-69s | 62.0C | 323ppm | YES | SAFE
-70s | 60.9C | 330ppm | NO | SAFE
-71s | 59.9C | 341ppm | NO | SAFE
-72s | 58.0C | 321ppm | NO | SAFE
-73s | 60.7C | 323ppm | NO | SAFE
-74s | 58.4C | 327ppm | NO | SAFE
-75s | 60.5C | 320ppm | NO | SAFE
-76s | 59.2C | 323ppm | NO | SAFE
-77s | 61.7C | 316ppm | NO | SAFE
-78s | 59.2C | 320ppm | NO | SAFE
-79s | 61.6C | 327ppm | NO | SAFE
-80s | 61.1C | 317ppm | NO | SAFE
-81s | 62.8C | 325ppm | NO | SAFE
-82s | 59.1C | 322ppm | NO | SAFE
-83s | 60.6C | 326ppm | NO | SAFE
-84s | 60.7C | 325ppm | NO | SAFE
-85s | 60.2C | 321ppm | NO | SAFE
-86s | 61.5C | 324ppm | NO | SAFE
-87s | 60.8C | 319ppm | NO | SAFE
-88s | 61.6C | 324ppm | NO | SAFE
-89s | 60.5C | 321ppm | NO | SAFE
-90s | 62.4C | 329ppm | NO | SAFE
-91s | 61.5C | 323ppm | NO | SAFE
-92s | 62.5C | 318ppm | NO | SAFE
-93s | 62.7C | 326ppm | NO | SAFE
-94s | 60.9C | 320ppm | NO | SAFE
-95s | 62.9C | 317ppm | NO | SAFE
-96s | 65.6C | 316ppm | NO | SAFE
-97s | 62.4C | 321ppm | NO | SAFE
-98s | 61.8C | 318ppm | NO | SAFE
-99s | 60.1C | 325ppm | NO | SAFE
-100s | 60.9C | 316ppm | NO | SAFE
-101s | 61.8C | 318ppm | NO | SAFE
-102s | 62.1C | 320ppm | NO | SAFE
-103s | 62.7C | 322ppm | NO | SAFE
-104s | 62.9C | 323ppm | NO | SAFE
-105s | 64.1C | 322ppm | NO | SAFE
-106s | 63.5C | 317ppm | NO | SAFE
-107s | 63.2C | 319ppm | NO | SAFE
-108s | 63.0C | 321ppm | NO | SAFE
-109s | 62.9C | 322ppm | NO | SAFE
-110s | 63.0C | 319ppm | NO | SAFE
-111s | 66.1C | 311ppm | NO | SAFE
-112s | 64.7C | 317ppm | NO | SAFE
-113s | 64.5C | 310ppm | NO | SAFE
-114s | 64.0C | 322ppm | NO | SAFE
-115s | 62.9C | 321ppm | NO | SAFE
-116s | 65.9C | 323ppm | NO | SAFE
-117s | 62.9C | 315ppm | NO | SAFE
-118s | 63.3C | 320ppm | NO | SAFE
-119s | 62.5C | 316ppm | NO | SAFE
-120s | 64.0C | 312ppm | NO | SAFE
-121s | 64.4C | 320ppm | NO | SAFE
-122s | 64.3C | 314ppm | NO | SAFE
-123s | 64.6C | 322ppm | NO | SAFE
-124s | 62.1C | 311ppm | NO | SAFE
-125s | 60.7C | 310ppm | NO | SAFE
-126s | 65.9C | 308ppm | NO | SAFE
-127s | 64.1C | 310ppm | NO | SAFE
-128s | 65.4C | 309ppm | NO | SAFE
-129s | 64.7C | 305ppm | NO | SAFE
-130s | 66.3C | 318ppm | NO | SAFE
-131s | 64.3C | 310ppm | NO | SAFE
-132s | 65.1C | 302ppm | NO | SAFE
-133s | 63.7C | 316ppm | NO | SAFE
-134s | 69.1C | 319ppm | NO | SAFE
-135s | 65.9C | 311ppm | NO | SAFE
-136s | 67.0C | 313ppm | NO | SAFE
-137s | 66.4C | 321ppm | NO | SAFE
-138s | 65.0C | 316ppm | NO | SAFE
-139s | 67.6C | 310ppm | NO | SAFE
-140s | 65.6C | 311ppm | NO | SAFE
-141s | 68.0C | 312ppm | NO | SAFE
-142s | 64.8C | 310ppm | NO | SAFE
-143s | 68.1C | 311ppm | NO | SAFE
-144s | 67.6C | 311ppm | NO | SAFE
-145s | 69.2C | 314ppm | NO | SAFE
-146s | 68.9C | 311ppm | NO | SAFE
-147s | 66.9C | 306ppm | NO | SAFE
-148s | 69.0C | 316ppm | NO | SAFE
-149s | 66.1C | 309ppm | NO | SAFE
-150s | 66.4C | 315ppm | NO | SAFE
-151s | 68.2C | 318ppm | NO | SAFE
-152s | 68.3C | 314ppm | NO | SAFE
-153s | 66.1C | 306ppm | NO | SAFE
-154s | 65.0C | 313ppm | NO | SAFE
-155s | 69.4C | 315ppm | NO | SAFE
-156s | 66.9C | 311ppm | NO | SAFE
-157s | 67.6C | 299ppm | NO | SAFE
-158s | 63.7C | 312ppm | NO | SAFE
-159s | 70.5C | 309ppm | NO | SAFE
-160s | 68.2C | 313ppm | NO | SAFE
-161s | 63.7C | 306ppm | NO | SAFE
-162s | 67.1C | 315ppm | NO | SAFE
-163s | 66.9C | 309ppm | NO | SAFE
-164s | 66.2C | 304ppm | NO | SAFE
-165s | 68.9C | 299ppm | NO | SAFE
-166s | 67.4C | 313ppm | NO | SAFE
-167s | 67.8C | 305ppm | NO | SAFE
-168s | 65.7C | 305ppm | NO | SAFE
-169s | 64.8C | 304ppm | NO | SAFE
-170s | 67.7C | 310ppm | NO | SAFE
-171s | 68.8C | 305ppm | NO | SAFE
-172s | 66.6C | 306ppm | NO | SAFE
-173s | 66.1C | 307ppm | NO | SAFE
-174s | 67.2C | 298ppm | NO | SAFE
-175s | 65.4C | 310ppm | NO | SAFE
-176s | 66.8C | 304ppm | NO | SAFE
-177s | 66.6C | 311ppm | NO | SAFE
-178s | 66.9C | 299ppm | NO | SAFE
-179s | 66.9C | 300ppm | NO | SAFE
-180s | 65.0C | 305ppm | NO | SAFE
-181s | 66.0C | 298ppm | NO | SAFE
-182s | 67.2C | 308ppm | NO | SAFE
-183s | 65.3C | 306ppm | NO | SAFE
-184s | 68.0C | 305ppm | NO | SAFE
-185s | 66.3C | 301ppm | NO | SAFE
-186s | 67.9C | 312ppm | NO | SAFE
-187s | 69.9C | 298ppm | NO | SAFE
-188s | 68.0C | 312ppm | NO | SAFE
-189s | 68.2C | 309ppm | NO | SAFE
-190s | 67.9C | 302ppm | NO | SAFE
-191s | 68.6C | 295ppm | NO | SAFE
-192s | 68.3C | 302ppm | NO | SAFE
-193s | 68.3C | 310ppm | NO | SAFE
-194s | 67.4C | 308ppm | NO | SAFE
-195s | 66.6C | 303ppm | NO | SAFE
-196s | 65.9C | 297ppm | NO | SAFE
-197s | 68.9C | 299ppm | NO | SAFE
-198s | 68.4C | 299ppm | NO | SAFE
-199s | 67.6C | 309ppm | NO | SAFE
-200s | 68.2C | 298ppm | NO | SAFE
-201s | 68.3C | 304ppm | NO | SAFE
-202s | 70.4C | 297ppm | NO | SAFE
-203s | 65.0C | 309ppm | NO | SAFE
-204s | 68.4C | 309ppm | NO | SAFE
-205s | 67.8C | 304ppm | NO | SAFE
-206s | 70.3C | 306ppm | NO | SAFE
-207s | 68.3C | 308ppm | NO | SAFE
-208s | 67.8C | 311ppm | NO | SAFE
-209s | 70.4C | 303ppm | NO | SAFE
-210s | 68.2C | 309ppm | NO | SAFE
-211s | 69.6C | 300ppm | NO | SAFE
-212s | 69.4C | 302ppm | NO | SAFE
-213s | 68.4C | 305ppm | NO | SAFE
-214s | 69.0C | 303ppm | NO | SAFE
-215s | 68.3C | 311ppm | NO | SAFE
-216s | 65.8C | 314ppm | NO | SAFE
-217s | 65.3C | 307ppm | NO | SAFE
-218s | 69.7C | 303ppm | NO | SAFE
-219s | 68.8C | 309ppm | NO | SAFE
-220s | 70.1C | 313ppm | NO | SAFE
-221s | 69.0C | 316ppm | NO | SAFE
-222s | 68.4C | 300ppm | NO | SAFE
-223s | 69.9C | 311ppm | NO | SAFE
-224s | 67.5C | 303ppm | NO | SAFE
-225s | 69.6C | 307ppm | NO | SAFE
-226s | 67.1C | 303ppm | NO | SAFE
-227s | 68.5C | 308ppm | NO | SAFE
-228s | 71.4C | 307ppm | NO | SAFE
-229s | 69.0C | 303ppm | NO | SAFE
-230s | 68.1C | 311ppm | NO | SAFE
-231s | 68.5C | 311ppm | NO | SAFE
-232s | 67.6C | 310ppm | NO | SAFE
-233s | 70.8C | 315ppm | NO | SAFE
-234s | 68.0C | 308ppm | NO | SAFE
-235s | 68.1C | 314ppm | NO | SAFE
-236s | 68.7C | 315ppm | NO | SAFE
-237s | 69.8C | 309ppm | NO | SAFE
-238s | 67.8C | 316ppm | NO | SAFE
-239s | 69.6C | 316ppm | NO | SAFE
-240s | 68.4C | 315ppm | NO | SAFE
-241s | 66.8C | 317ppm | NO | SAFE
-242s | 69.5C | 301ppm | NO | SAFE
-243s | 69.3C | 310ppm | NO | SAFE
-244s | 69.3C | 314ppm | NO | SAFE
-245s | 66.2C | 311ppm | NO | SAFE
-246s | 69.2C | 308ppm | NO | SAFE
-247s | 67.9C | 314ppm | NO | SAFE
-248s | 69.5C | 311ppm | NO | SAFE
-249s | 66.2C | 318ppm | NO | SAFE
-250s | 72.4C | 320ppm | NO | SAFE
-251s | 69.1C | 304ppm | NO | SAFE
-252s | 68.4C | 316ppm | NO | SAFE
-253s | 69.0C | 317ppm | NO | SAFE
-254s | 66.3C | 322ppm | NO | SAFE
-255s | 68.4C | 312ppm | NO | SAFE
-256s | 68.2C | 319ppm | NO | SAFE
-257s | 69.1C | 318ppm | NO | SAFE
-258s | 70.8C | 308ppm | NO | SAFE
-259s | 70.3C | 312ppm | NO | SAFE
-260s | 71.1C | 314ppm | NO | SAFE
-261s | 69.9C | 314ppm | NO | SAFE
-262s | 67.5C | 317ppm | NO | SAFE
-263s | 70.6C | 323ppm | NO | SAFE
-264s | 69.3C | 316ppm | NO | SAFE
-265s | 69.2C | 325ppm | NO | SAFE
-266s | 68.5C | 322ppm | NO | SAFE
-267s | 69.9C | 320ppm | NO | SAFE
-268s | 71.7C | 328ppm | NO | SAFE
-269s | 70.0C | 319ppm | NO | SAFE
-270s | 69.0C | 317ppm | NO | SAFE
-271s | 67.5C | 320ppm | NO | SAFE
-272s | 68.4C | 322ppm | NO | SAFE
-273s | 69.3C | 313ppm | NO | SAFE
-274s | 65.5C | 319ppm | NO | SAFE
-275s | 70.0C | 318ppm | NO | SAFE
-276s | 68.8C | 332ppm | NO | SAFE
-277s | 69.2C | 324ppm | NO | SAFE
-278s | 70.4C | 321ppm | NO | SAFE
-279s | 70.5C | 332ppm | NO | SAFE
-280s | 68.9C | 320ppm | NO | SAFE
-281s | 69.5C | 327ppm | NO | SAFE
-282s | 71.1C | 331ppm | NO | SAFE
-283s | 68.0C | 323ppm | NO | SAFE
-284s | 69.1C | 315ppm | NO | SAFE
-285s | 70.6C | 312ppm | NO | SAFE
-286s | 69.2C | 323ppm | NO | SAFE
-287s | 65.0C | 321ppm | NO | SAFE
-288s | 70.7C | 320ppm | NO | SAFE
-289s | 69.5C | 327ppm | NO | SAFE
-290s | 68.9C | 335ppm | NO | SAFE
-291s | 68.0C | 311ppm | NO | SAFE
-292s | 68.2C | 311ppm | NO | SAFE
-293s | 69.3C | 320ppm | NO | SAFE
-294s | 69.0C | 322ppm | NO | SAFE
-295s | 69.9C | 337ppm | NO | SAFE
-296s | 70.4C | 328ppm | NO | SAFE
-297s | 66.1C | 328ppm | NO | SAFE
-298s | 69.8C | 324ppm | NO | SAFE
-299s | 68.8C | 330ppm | NO | SAFE
-300s | 70.7C | 331ppm | NO | SAFE
+1|45.2|313|YES|Timeout Risk|Present|SAFE
+2|46.3|318|YES|Timeout Risk|Present|SAFE
+3|45.4|315|YES|Timeout Risk|Present|SAFE
+4|47.2|308|YES|Timeout Risk|Present|SAFE
+5|45.8|309|YES|Timeout Risk|Present|SAFE
+6|46.0|325|YES|Timeout Risk|Present|SAFE
+7|50.1|317|YES|Timeout Risk|Present|SAFE
+8|48.4|316|YES|Timeout Risk|Present|SAFE
+9|47.9|319|YES|Timeout Risk|Present|SAFE
+10|49.2|318|YES|Timeout Risk|Present|SAFE
+11|49.4|326|YES|Timeout Risk|Present|SAFE
+12|50.3|311|YES|Timeout Risk|Present|SAFE
+13|47.7|322|YES|Timeout Risk|Present|SAFE
+14|48.4|315|YES|Timeout Risk|Present|SAFE
+15|48.8|320|YES|Timeout Risk|Present|SAFE
+16|49.4|325|YES|Timeout Risk|Present|SAFE
+17|48.3|322|YES|Timeout Risk|Present|SAFE
+18|49.8|314|YES|Timeout Risk|Present|SAFE
+19|51.3|320|YES|Timeout Risk|Present|SAFE
+20|52.3|317|YES|Timeout Risk|Present|SAFE
+21|50.5|315|YES|Timeout Risk|Present|SAFE
+22|51.2|316|YES|Timeout Risk|Present|SAFE
+23|50.6|328|YES|Timeout Risk|Present|SAFE
+24|51.3|313|YES|Timeout Risk|Present|SAFE
+25|52.5|331|YES|Timeout Risk|Present|SAFE
+26|50.8|316|YES|Timeout Risk|Present|SAFE
+27|48.2|319|YES|Timeout Risk|Present|SAFE
+28|51.4|324|YES|Timeout Risk|Present|SAFE
+29|52.7|314|YES|Timeout Risk|Present|SAFE
+30|51.6|322|YES|Timeout Risk|Present|SAFE
+31|52.2|315|YES|Timeout Risk|Present|SAFE
+32|53.8|328|YES|Timeout Risk|Present|SAFE
+33|53.8|319|YES|Timeout Risk|Present|SAFE
+34|51.8|330|YES|Timeout Risk|Present|SAFE
+35|54.0|321|YES|Timeout Risk|Present|SAFE
+36|52.5|317|YES|Timeout Risk|Present|SAFE
+37|54.0|319|YES|Timeout Risk|Present|SAFE
+38|55.4|329|YES|Timeout Risk|Present|SAFE
+39|56.6|320|YES|Timeout Risk|Present|SAFE
+40|54.4|323|YES|Timeout Risk|Present|SAFE
+41|55.9|318|YES|Timeout Risk|Present|SAFE
+42|55.3|332|YES|Timeout Risk|Present|SAFE
+43|56.6|315|YES|Timeout Risk|Present|SAFE
+44|59.3|323|YES|Timeout Risk|Present|SAFE
+45|55.3|326|YES|Timeout Risk|Present|SAFE
+46|53.8|331|YES|Timeout Risk|Present|SAFE
+47|56.6|318|YES|Timeout Risk|Present|SAFE
+48|54.3|325|YES|Timeout Risk|Present|SAFE
+49|56.6|327|YES|Timeout Risk|Present|SAFE
+50|53.1|328|YES|Timeout Risk|Present|SAFE
+51|57.5|323|YES|Timeout Risk|Present|SAFE
+52|55.8|329|YES|Timeout Risk|Present|SAFE
+53|59.2|319|YES|Timeout Risk|Present|SAFE
+54|56.1|326|YES|Timeout Risk|Present|SAFE
+55|58.3|320|YES|Timeout Risk|Present|SAFE
+56|55.3|330|YES|Timeout Risk|Present|SAFE
+57|59.4|321|YES|Timeout Risk|Present|SAFE
+58|56.3|324|YES|Timeout Risk|Present|SAFE
+59|59.0|321|YES|Timeout Risk|Present|SAFE
+60|59.8|328|YES|Timeout Risk|Present|SAFE
+61|60.6|322|YES|Timeout Risk|Present|SAFE
+62|57.9|323|YES|Timeout Risk|Present|SAFE
+63|57.7|324|YES|Timeout Risk|Present|SAFE
+64|57.0|325|YES|Timeout Risk|Present|SAFE
+65|58.8|334|YES|Timeout Risk|Present|SAFE
+66|59.2|333|YES|Timeout Risk|Present|SAFE
+67|58.6|321|YES|Timeout Risk|Present|SAFE
+68|59.7|331|YES|Timeout Risk|Present|SAFE
+69|58.7|325|YES|Timeout Risk|Present|SAFE
+70|59.5|321|NO|Timeout Risk|Unattended|SAFE
+71|60.8|333|NO|Timeout Risk|Unattended|SAFE
+72|59.9|318|NO|Timeout Risk|Unattended|SAFE
+73|62.2|316|NO|Timeout Risk|Unattended|SAFE
+74|60.5|311|NO|Timeout Risk|Unattended|SAFE
+75|58.1|329|NO|Timeout Risk|Unattended|SAFE
+76|58.4|331|NO|Timeout Risk|Unattended|SAFE
+77|61.8|324|NO|Timeout Risk|Unattended|SAFE
+78|60.3|324|NO|Timeout Risk|Unattended|SAFE
+79|59.6|325|NO|Timeout Risk|Unattended|SAFE
+80|58.9|320|NO|Timeout Risk|Unattended|SAFE
+81|63.1|320|NO|Timeout Risk|Unattended|SAFE
+82|59.6|318|NO|Timeout Risk|Unattended|SAFE
+83|61.2|323|NO|Timeout Risk|Unattended|SAFE
+84|59.7|326|NO|Timeout Risk|Unattended|SAFE
+85|61.5|323|NO|Timeout Risk|Unattended|SAFE
+86|62.8|318|NO|Timeout Risk|Unattended|SAFE
+87|61.2|326|NO|Timeout Risk|Unattended|SAFE
+88|63.2|320|NO|Timeout Risk|Unattended|SAFE
+89|61.0|312|NO|Timeout Risk|Unattended|SAFE
+90|60.5|321|NO|Timeout Risk|Unattended|SAFE
+91|58.6|327|NO|Timeout Risk|Unattended|SAFE
+92|65.1|322|NO|Timeout Risk|Unattended|SAFE
+93|61.6|324|NO|Timeout Risk|Unattended|SAFE
+94|62.2|327|NO|Timeout Risk|Unattended|SAFE
+95|61.3|321|NO|Timeout Risk|Unattended|SAFE
+96|61.9|323|NO|Timeout Risk|Unattended|SAFE
+97|62.2|328|NO|Timeout Risk|Unattended|SAFE
+98|62.4|327|NO|Timeout Risk|Unattended|SAFE
+99|62.7|323|NO|Timeout Risk|Unattended|SAFE
+100|60.2|318|NO|Timeout Risk|Unattended|SAFE
+101|63.3|313|NO|Timeout Risk|Unattended|SAFE
+102|63.3|315|NO|Timeout Risk|Unattended|SAFE
+103|64.7|313|NO|Timeout Risk|Unattended|SAFE
+104|62.0|314|NO|Timeout Risk|Unattended|SAFE
+105|63.2|330|NO|Timeout Risk|Unattended|SAFE
+106|62.9|317|NO|Timeout Risk|Unattended|SAFE
+107|63.5|317|NO|Timeout Risk|Unattended|SAFE
+108|64.4|323|NO|Timeout Risk|Unattended|SAFE
+109|65.2|321|NO|Timeout Risk|Unattended|SAFE
+110|63.9|315|NO|Timeout Risk|Unattended|SAFE
+111|64.5|328|NO|Timeout Risk|Unattended|SAFE
+112|66.2|319|NO|Timeout Risk|Unattended|SAFE
+113|65.1|324|NO|Timeout Risk|Unattended|SAFE
+114|62.5|314|NO|Timeout Risk|Unattended|SAFE
+115|63.1|325|NO|Timeout Risk|Unattended|SAFE
+116|65.6|319|NO|Timeout Risk|Unattended|SAFE
+117|64.9|316|NO|Timeout Risk|Unattended|SAFE
+118|61.9|311|NO|Timeout Risk|Unattended|SAFE
+119|62.5|312|NO|Timeout Risk|Unattended|SAFE
+120|66.3|315|NO|Timeout Risk|Unattended|SAFE
+121|67.2|316|NO|Timeout Risk|Unattended|SAFE
+122|64.3|316|NO|Timeout Risk|Unattended|SAFE
+123|65.7|319|NO|Timeout Risk|Unattended|SAFE
+124|64.4|308|NO|Timeout Risk|Unattended|SAFE
+125|64.2|311|NO|Timeout Risk|Unattended|SAFE
+126|64.0|312|NO|Timeout Risk|Unattended|SAFE
+127|64.5|315|NO|Timeout Risk|Unattended|SAFE
+128|63.6|316|NO|Timeout Risk|Unattended|SAFE
+129|64.4|311|NO|Timeout Risk|Unattended|SAFE
+130|67.0|299|NO|Timeout Risk|Unattended|SAFE
+131|66.8|320|NO|Timeout Risk|Unattended|SAFE
+132|63.2|305|NO|Timeout Risk|Unattended|SAFE
+133|62.6|317|NO|Timeout Risk|Unattended|SAFE
+134|64.6|315|NO|Timeout Risk|Unattended|SAFE
+135|66.9|303|NO|Timeout Risk|Unattended|SAFE
+136|67.1|311|NO|Timeout Risk|Unattended|SAFE
+137|62.8|312|NO|Timeout Risk|Unattended|SAFE
+138|65.7|312|NO|Timeout Risk|Unattended|SAFE
+139|67.0|308|NO|Timeout Risk|Unattended|SAFE
+140|66.0|314|NO|Timeout Risk|Unattended|SAFE
+141|66.1|308|NO|Timeout Risk|Unattended|SAFE
+142|67.1|312|NO|Timeout Risk|Unattended|SAFE
+143|67.3|314|NO|Timeout Risk|Unattended|SAFE
+144|64.8|312|NO|Timeout Risk|Unattended|SAFE
+145|65.9|298|NO|Timeout Risk|Unattended|SAFE
+146|64.6|312|NO|Timeout Risk|Unattended|SAFE
+147|67.9|309|NO|Timeout Risk|Unattended|SAFE
+148|67.1|316|NO|Timeout Risk|Unattended|SAFE
+149|66.0|322|NO|Timeout Risk|Unattended|SAFE
+150|67.4|311|NO|Timeout Risk|Unattended|SAFE
+151|66.5|308|NO|Timeout Risk|Unattended|SAFE
+152|66.0|308|NO|Timeout Risk|Unattended|SAFE
+153|64.8|310|NO|Timeout Risk|Unattended|SAFE
+154|63.1|314|NO|Timeout Risk|Unattended|SAFE
+155|63.9|307|NO|Timeout Risk|Unattended|SAFE
+156|67.1|305|NO|Timeout Risk|Unattended|SAFE
+157|65.5|318|NO|Timeout Risk|Unattended|SAFE
+158|65.6|317|NO|Timeout Risk|Unattended|SAFE
+159|65.6|300|NO|Timeout Risk|Unattended|SAFE
+160|65.3|303|NO|Timeout Risk|Unattended|SAFE
+161|68.4|313|NO|Timeout Risk|Unattended|SAFE
+162|66.7|307|NO|Timeout Risk|Unattended|SAFE
+163|64.7|306|NO|Timeout Risk|Unattended|SAFE
+164|66.0|302|NO|Timeout Risk|Unattended|SAFE
+165|67.6|301|NO|Timeout Risk|Unattended|SAFE
+166|66.2|313|NO|Timeout Risk|Unattended|SAFE
+167|64.6|301|NO|Timeout Risk|Unattended|SAFE
+168|68.5|304|NO|Timeout Risk|Unattended|SAFE
+169|69.1|308|NO|Timeout Risk|Unattended|SAFE
+170|64.9|308|NO|Timeout Risk|Unattended|SAFE
+171|65.0|304|NO|Timeout Risk|Unattended|SAFE
+172|67.3|299|NO|Timeout Risk|Unattended|SAFE
+173|67.1|304|NO|Timeout Risk|Unattended|SAFE
+174|67.2|298|NO|Timeout Risk|Unattended|SAFE
+175|67.6|301|NO|Timeout Risk|Unattended|SAFE
+176|65.7|286|NO|Timeout Risk|Unattended|SAFE
+177|65.4|305|NO|Timeout Risk|Unattended|SAFE
+178|68.6|302|NO|Timeout Risk|Unattended|SAFE
+179|68.4|307|NO|Timeout Risk|Unattended|SAFE
+180|69.4|303|NO|Timeout Risk|Unattended|SAFE
+181|68.8|305|NO|Timeout Risk|Unattended|SAFE
+182|68.9|303|NO|Timeout Risk|Unattended|SAFE
+183|67.4|304|NO|Timeout Risk|Unattended|SAFE
+184|65.8|310|NO|Timeout Risk|Unattended|SAFE
+185|67.2|304|NO|Timeout Risk|Unattended|SAFE
+186|65.1|303|NO|Timeout Risk|Unattended|SAFE
+187|66.7|304|NO|Timeout Risk|Unattended|SAFE
+188|65.1|303|NO|Timeout Risk|Unattended|SAFE
+189|69.1|298|NO|Timeout Risk|Unattended|SAFE
+190|69.0|299|NO|Timeout Risk|Unattended|SAFE
+191|68.6|303|NO|Timeout Risk|Unattended|SAFE
+192|68.0|303|NO|Timeout Risk|Unattended|SAFE
+193|68.8|305|NO|Timeout Risk|Unattended|SAFE
+194|68.6|309|NO|Timeout Risk|Unattended|SAFE
+195|64.9|308|NO|Timeout Risk|Unattended|SAFE
+196|68.0|315|NO|Timeout Risk|Unattended|SAFE
+197|71.6|302|NO|Timeout Risk|Unattended|SAFE
+198|68.7|310|NO|Timeout Risk|Unattended|SAFE
+199|65.5|304|NO|Timeout Risk|Unattended|SAFE
+200|70.2|306|NO|Timeout Risk|Unattended|SAFE
+201|66.0|315|NO|Timeout Risk|Unattended|SAFE
+202|68.8|304|NO|Timeout Risk|Unattended|SAFE
+203|67.7|306|NO|Timeout Risk|Unattended|SAFE
+204|67.3|306|NO|Timeout Risk|Unattended|SAFE
+205|69.8|307|NO|Timeout Risk|Unattended|SAFE
+206|66.7|306|NO|Timeout Risk|Unattended|SAFE
+207|68.3|305|NO|Timeout Risk|Unattended|SAFE
+208|66.7|301|NO|Timeout Risk|Unattended|SAFE
+209|67.4|303|NO|Timeout Risk|Unattended|SAFE
+210|66.2|305|NO|Timeout Risk|Unattended|SAFE
+211|68.7|304|NO|Timeout Risk|Unattended|SAFE
+212|67.2|308|NO|Timeout Risk|Unattended|SAFE
+213|72.6|299|NO|Timeout Risk|Unattended|SAFE
+214|66.2|303|NO|Timeout Risk|Unattended|SAFE
+215|65.3|309|NO|Timeout Risk|Unattended|SAFE
+216|68.2|306|NO|Timeout Risk|Unattended|SAFE
+217|69.5|302|NO|Timeout Risk|Unattended|SAFE
+218|66.6|301|NO|Timeout Risk|Unattended|SAFE
+219|71.2|308|NO|Timeout Risk|Unattended|SAFE
+220|66.5|310|NO|Timeout Risk|Unattended|SAFE
+221|67.1|314|NO|Timeout Risk|Unattended|SAFE
+222|68.7|307|NO|Timeout Risk|Unattended|SAFE
+223|69.0|310|NO|Timeout Risk|Unattended|SAFE
+224|67.7|311|NO|Timeout Risk|Unattended|SAFE
+225|67.8|301|NO|Timeout Risk|Unattended|SAFE
+226|68.9|308|NO|Timeout Risk|Unattended|SAFE
+227|68.7|306|NO|Timeout Risk|Unattended|SAFE
+228|68.5|306|NO|Timeout Risk|Unattended|SAFE
+229|69.3|304|NO|Timeout Risk|Unattended|SAFE
+230|70.4|310|NO|Timeout Risk|Unattended|SAFE
+231|69.6|316|NO|Timeout Risk|Unattended|SAFE
+232|68.1|309|NO|Timeout Risk|Unattended|SAFE
+233|65.3|319|NO|Timeout Risk|Unattended|SAFE
+234|67.7|303|NO|Timeout Risk|Unattended|SAFE
+235|69.8|307|NO|Timeout Risk|Unattended|SAFE
+236|69.3|308|NO|Timeout Risk|Unattended|SAFE
+237|68.6|315|NO|Timeout Risk|Unattended|SAFE
+238|67.7|312|NO|Timeout Risk|Unattended|SAFE
+239|70.5|303|NO|Timeout Risk|Unattended|SAFE
+240|72.1|312|NO|Timeout Risk|Unattended|SAFE
+241|66.9|303|NO|Timeout Risk|Unattended|SAFE
+242|69.2|309|NO|Timeout Risk|Unattended|SAFE
+243|67.5|309|NO|Timeout Risk|Unattended|SAFE
+244|68.5|310|NO|Timeout Risk|Unattended|SAFE
+245|68.3|312|NO|Timeout Risk|Unattended|SAFE
+246|66.7|312|NO|Timeout Risk|Unattended|SAFE
+247|69.2|306|NO|Timeout Risk|Unattended|SAFE
+248|69.0|316|NO|Timeout Risk|Unattended|SAFE
+249|68.7|306|NO|Timeout Risk|Unattended|SAFE
+250|71.0|308|NO|Timeout Risk|Unattended|SAFE
+251|67.4|309|NO|Timeout Risk|Unattended|SAFE
+252|68.3|313|NO|Timeout Risk|Unattended|SAFE
+253|66.9|313|NO|Timeout Risk|Unattended|SAFE
+254|67.6|309|NO|Timeout Risk|Unattended|SAFE
+255|69.6|317|NO|Timeout Risk|Unattended|SAFE
+256|70.5|325|NO|Timeout Risk|Unattended|SAFE
+257|70.2|313|NO|Timeout Risk|Unattended|SAFE
+258|70.4|321|NO|Timeout Risk|Unattended|SAFE
+259|68.7|312|NO|Timeout Risk|Unattended|SAFE
+260|66.3|325|NO|Timeout Risk|Unattended|SAFE
+261|68.4|316|NO|Timeout Risk|Unattended|SAFE
+262|67.7|322|NO|Timeout Risk|Unattended|SAFE
+263|72.3|321|NO|Timeout Risk|Unattended|SAFE
+264|66.4|316|NO|Timeout Risk|Unattended|SAFE
+265|67.4|309|NO|Timeout Risk|Unattended|SAFE
+266|67.5|321|NO|Timeout Risk|Unattended|SAFE
+267|69.2|321|NO|Timeout Risk|Unattended|SAFE
+268|68.5|322|NO|Timeout Risk|Unattended|SAFE
+269|69.4|319|NO|Timeout Risk|Unattended|SAFE
+270|70.9|319|NO|Timeout Risk|Unattended|SAFE
+271|69.9|321|NO|Timeout Risk|Unattended|SAFE
+272|71.4|317|NO|Timeout Risk|Unattended|SAFE
+273|73.2|319|NO|Timeout Risk|Unattended|SAFE
+274|68.6|318|NO|Timeout Risk|Unattended|SAFE
+275|67.4|317|NO|Timeout Risk|Unattended|SAFE
+276|66.7|321|NO|Timeout Risk|Unattended|SAFE
+277|70.1|322|NO|Timeout Risk|Unattended|SAFE
+278|67.4|318|NO|Timeout Risk|Unattended|SAFE
+279|70.2|315|NO|Timeout Risk|Unattended|SAFE
+280|71.2|322|NO|Timeout Risk|Unattended|SAFE
+281|66.7|311|NO|Timeout Risk|Unattended|SAFE
+282|70.3|329|NO|Timeout Risk|Unattended|SAFE
+283|69.7|319|NO|Timeout Risk|Unattended|SAFE
+284|68.7|321|NO|Timeout Risk|Unattended|SAFE
+285|72.7|327|NO|Timeout Risk|Unattended|SAFE
+286|67.1|317|NO|Timeout Risk|Unattended|SAFE
+287|70.5|320|NO|Timeout Risk|Unattended|SAFE
+288|67.5|322|NO|Timeout Risk|Unattended|SAFE
+289|71.5|329|NO|Timeout Risk|Unattended|SAFE
+290|74.0|326|NO|Timeout Risk|Unattended|SAFE
+291|70.1|333|NO|Timeout Risk|Unattended|SAFE
+292|67.1|321|NO|Timeout Risk|Unattended|SAFE
+293|68.1|321|NO|Timeout Risk|Unattended|SAFE
+294|72.7|316|NO|Timeout Risk|Unattended|SAFE
+295|68.4|322|NO|Timeout Risk|Unattended|SAFE
+296|67.7|315|NO|Timeout Risk|Unattended|SAFE
+297|67.9|330|NO|Timeout Risk|Unattended|SAFE
+298|72.7|326|NO|Timeout Risk|Unattended|SAFE
+299|66.4|328|NO|Timeout Risk|Unattended|SAFE
+300|69.7|326|NO|Timeout Risk|Unattended|SAFE

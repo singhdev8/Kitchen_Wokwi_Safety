@@ -1,200 +1,200 @@
-1s | 69.8C | 325ppm | YES | SAFE
-2s | 70.0C | 316ppm | YES | SAFE
-3s | 73.2C | 318ppm | YES | SAFE
-4s | 69.9C | 331ppm | YES | SAFE
-5s | 75.7C | 318ppm | YES | SAFE
-6s | 72.0C | 325ppm | YES | SAFE
-7s | 73.5C | 324ppm | YES | SAFE
-8s | 75.4C | 328ppm | YES | SAFE
-9s | 71.9C | 316ppm | YES | SAFE
-10s | 74.2C | 330ppm | YES | SAFE
-11s | 74.8C | 331ppm | YES | SAFE
-12s | 75.3C | 328ppm | YES | SAFE
-13s | 75.3C | 340ppm | YES | SAFE
-14s | 76.1C | 332ppm | YES | SAFE
-15s | 78.5C | 327ppm | YES | SAFE
-16s | 75.5C | 331ppm | YES | SAFE
-17s | 78.7C | 336ppm | YES | SAFE
-18s | 76.3C | 334ppm | YES | SAFE
-19s | 77.6C | 331ppm | YES | SAFE
-20s | 77.2C | 326ppm | YES | SAFE
-21s | 81.8C | 340ppm | YES | SAFE
-22s | 79.1C | 337ppm | YES | SAFE
-23s | 81.8C | 335ppm | YES | SAFE
-24s | 77.7C | 334ppm | YES | SAFE
-25s | 82.5C | 329ppm | YES | SAFE
-26s | 81.9C | 338ppm | YES | SAFE
-27s | 79.4C | 330ppm | YES | SAFE
-28s | 83.3C | 340ppm | YES | SAFE
-29s | 83.7C | 337ppm | YES | SAFE
-30s | 80.7C | 352ppm | YES | SAFE
-31s | 82.8C | 332ppm | YES | SAFE
-32s | 83.2C | 336ppm | YES | SAFE
-33s | 83.2C | 343ppm | YES | SAFE
-34s | 82.5C | 337ppm | YES | SAFE
-35s | 84.0C | 345ppm | YES | SAFE
-36s | 83.0C | 340ppm | YES | SAFE
-37s | 81.9C | 350ppm | YES | SAFE
-38s | 83.6C | 333ppm | YES | SAFE
-39s | 87.1C | 335ppm | YES | SAFE
-40s | 84.2C | 342ppm | YES | SAFE
-41s | 84.9C | 338ppm | YES | SAFE
-42s | 84.4C | 336ppm | YES | SAFE
-43s | 87.1C | 334ppm | YES | SAFE
-44s | 85.3C | 334ppm | YES | SAFE
-45s | 86.0C | 337ppm | YES | SAFE
-46s | 86.1C | 336ppm | YES | SAFE
-47s | 86.1C | 352ppm | YES | SAFE
-48s | 84.8C | 343ppm | YES | SAFE
-49s | 83.7C | 342ppm | YES | SAFE
-50s | 84.0C | 329ppm | YES | SAFE
-51s | 85.0C | 333ppm | YES | SAFE
-52s | 85.2C | 335ppm | YES | SAFE
-53s | 85.3C | 342ppm | YES | SAFE
-54s | 85.6C | 335ppm | YES | SAFE
-55s | 87.3C | 339ppm | YES | SAFE
-56s | 83.0C | 345ppm | YES | SAFE
-57s | 83.6C | 333ppm | YES | SAFE
-58s | 84.9C | 335ppm | YES | SAFE
-59s | 84.6C | 342ppm | YES | SAFE
-60s | 83.0C | 339ppm | YES | SAFE
-61s | 83.2C | 339ppm | YES | SAFE
-62s | 82.5C | 322ppm | YES | SAFE
-63s | 82.6C | 335ppm | YES | SAFE
-64s | 84.3C | 332ppm | YES | SAFE
-65s | 84.5C | 334ppm | YES | SAFE
-66s | 83.4C | 328ppm | YES | SAFE
-67s | 80.3C | 322ppm | YES | SAFE
-68s | 81.9C | 335ppm | YES | SAFE
-69s | 80.5C | 327ppm | YES | SAFE
-70s | 78.4C | 334ppm | YES | SAFE
-71s | 80.8C | 322ppm | YES | SAFE
-72s | 80.1C | 324ppm | YES | SAFE
-73s | 79.7C | 327ppm | YES | SAFE
-74s | 79.8C | 327ppm | YES | SAFE
-75s | 79.6C | 324ppm | YES | SAFE
-76s | 79.0C | 325ppm | YES | SAFE
-77s | 78.6C | 324ppm | YES | SAFE
-78s | 79.3C | 324ppm | YES | SAFE
-79s | 76.2C | 313ppm | YES | SAFE
-80s | 76.6C | 319ppm | YES | SAFE
-81s | 77.1C | 322ppm | YES | SAFE
-82s | 73.6C | 321ppm | YES | SAFE
-83s | 77.2C | 320ppm | YES | SAFE
-84s | 75.3C | 305ppm | YES | SAFE
-85s | 72.6C | 312ppm | YES | SAFE
-86s | 73.9C | 313ppm | YES | SAFE
-87s | 73.3C | 313ppm | YES | SAFE
-88s | 69.7C | 315ppm | YES | SAFE
-89s | 69.2C | 321ppm | YES | SAFE
-90s | 74.0C | 318ppm | YES | SAFE
-91s | 72.9C | 321ppm | YES | SAFE
-92s | 72.8C | 301ppm | YES | SAFE
-93s | 69.4C | 322ppm | YES | SAFE
-94s | 71.2C | 308ppm | YES | SAFE
-95s | 68.6C | 312ppm | YES | SAFE
-96s | 68.3C | 303ppm | YES | SAFE
-97s | 68.2C | 311ppm | YES | SAFE
-98s | 68.9C | 299ppm | YES | SAFE
-99s | 70.1C | 311ppm | YES | SAFE
-100s | 68.7C | 305ppm | YES | SAFE
-101s | 65.4C | 305ppm | YES | SAFE
-102s | 68.3C | 299ppm | YES | SAFE
-103s | 65.2C | 298ppm | YES | SAFE
-104s | 66.7C | 300ppm | YES | SAFE
-105s | 64.3C | 307ppm | YES | SAFE
-106s | 63.5C | 308ppm | YES | SAFE
-107s | 66.5C | 302ppm | YES | SAFE
-108s | 63.6C | 301ppm | YES | SAFE
-109s | 60.7C | 302ppm | YES | SAFE
-110s | 63.4C | 302ppm | YES | SAFE
-111s | 62.6C | 300ppm | YES | SAFE
-112s | 64.0C | 304ppm | YES | SAFE
-113s | 63.6C | 305ppm | YES | SAFE
-114s | 64.0C | 293ppm | YES | SAFE
-115s | 62.4C | 302ppm | YES | SAFE
-116s | 60.1C | 303ppm | YES | SAFE
-117s | 61.5C | 302ppm | YES | SAFE
-118s | 58.9C | 299ppm | YES | SAFE
-119s | 57.2C | 294ppm | YES | SAFE
-120s | 60.1C | 297ppm | YES | SAFE
-121s | 58.5C | 302ppm | YES | SAFE
-122s | 58.4C | 304ppm | YES | SAFE
-123s | 58.8C | 301ppm | YES | SAFE
-124s | 59.0C | 298ppm | YES | SAFE
-125s | 56.6C | 297ppm | YES | SAFE
-126s | 59.0C | 302ppm | YES | SAFE
-127s | 56.3C | 301ppm | YES | SAFE
-128s | 55.2C | 306ppm | YES | SAFE
-129s | 54.3C | 305ppm | YES | SAFE
-130s | 57.4C | 298ppm | YES | SAFE
-131s | 55.2C | 306ppm | YES | SAFE
-132s | 53.7C | 298ppm | YES | SAFE
-133s | 58.6C | 302ppm | YES | SAFE
-134s | 55.5C | 313ppm | YES | SAFE
-135s | 54.5C | 304ppm | YES | SAFE
-136s | 56.6C | 312ppm | YES | SAFE
-137s | 57.9C | 302ppm | YES | SAFE
-138s | 56.7C | 315ppm | YES | SAFE
-139s | 52.5C | 309ppm | YES | SAFE
-140s | 57.0C | 305ppm | YES | SAFE
-141s | 54.2C | 307ppm | YES | SAFE
-142s | 58.3C | 304ppm | YES | SAFE
-143s | 56.4C | 309ppm | YES | SAFE
-144s | 58.6C | 312ppm | YES | SAFE
-145s | 57.1C | 310ppm | YES | SAFE
-146s | 55.3C | 310ppm | YES | SAFE
-147s | 56.3C | 308ppm | YES | SAFE
-148s | 53.3C | 311ppm | YES | SAFE
-149s | 57.6C | 314ppm | YES | SAFE
-150s | 56.3C | 316ppm | YES | SAFE
-151s | 53.6C | 308ppm | YES | SAFE
-152s | 56.6C | 319ppm | YES | SAFE
-153s | 57.5C | 318ppm | YES | SAFE
-154s | 57.0C | 314ppm | YES | SAFE
-155s | 57.2C | 317ppm | YES | SAFE
-156s | 56.6C | 318ppm | YES | SAFE
-157s | 57.0C | 310ppm | YES | SAFE
-158s | 57.4C | 330ppm | YES | SAFE
-159s | 59.0C | 319ppm | YES | SAFE
-160s | 55.7C | 327ppm | YES | SAFE
-161s | 56.4C | 323ppm | YES | SAFE
-162s | 57.9C | 325ppm | YES | SAFE
-163s | 58.4C | 328ppm | YES | SAFE
-164s | 60.5C | 330ppm | YES | SAFE
-165s | 59.3C | 328ppm | YES | SAFE
-166s | 60.7C | 325ppm | YES | SAFE
-167s | 59.6C | 321ppm | YES | SAFE
-168s | 60.2C | 337ppm | YES | SAFE
-169s | 60.7C | 331ppm | YES | SAFE
-170s | 61.7C | 330ppm | YES | SAFE
-171s | 60.4C | 319ppm | YES | SAFE
-172s | 60.2C | 339ppm | YES | SAFE
-173s | 62.5C | 337ppm | YES | SAFE
-174s | 64.4C | 332ppm | YES | SAFE
-175s | 64.2C | 328ppm | YES | SAFE
-176s | 62.5C | 329ppm | YES | SAFE
-177s | 64.3C | 333ppm | YES | SAFE
-178s | 63.3C | 327ppm | YES | SAFE
-179s | 65.5C | 339ppm | YES | SAFE
-180s | 66.4C | 327ppm | YES | SAFE
-181s | 65.0C | 339ppm | YES | SAFE
-182s | 68.1C | 330ppm | YES | SAFE
-183s | 67.9C | 337ppm | YES | SAFE
-184s | 67.1C | 327ppm | YES | SAFE
-185s | 66.3C | 336ppm | YES | SAFE
-186s | 69.2C | 341ppm | YES | SAFE
-187s | 70.3C | 329ppm | YES | SAFE
-188s | 70.6C | 333ppm | YES | SAFE
-189s | 71.8C | 344ppm | YES | SAFE
-190s | 69.1C | 322ppm | YES | SAFE
-191s | 70.4C | 334ppm | YES | SAFE
-192s | 70.7C | 340ppm | YES | SAFE
-193s | 72.9C | 336ppm | YES | SAFE
-194s | 74.2C | 342ppm | YES | SAFE
-195s | 71.2C | 342ppm | YES | SAFE
-196s | 72.9C | 338ppm | YES | SAFE
-197s | 75.6C | 338ppm | YES | SAFE
-198s | 75.8C | 327ppm | YES | SAFE
-199s | 74.2C | 338ppm | YES | SAFE
-200s | 77.6C | 341ppm | YES | SAFE
+1|70.9|317|YES|Normal Cooking|Normal|SAFE
+2|71.2|327|YES|Normal Cooking|Normal|SAFE
+3|71.7|323|YES|Normal Cooking|Normal|SAFE
+4|70.6|319|YES|Normal Cooking|Normal|SAFE
+5|69.0|323|YES|Normal Cooking|Normal|SAFE
+6|72.2|318|YES|Normal Cooking|Normal|SAFE
+7|71.0|322|YES|Normal Cooking|Normal|SAFE
+8|71.4|336|YES|Normal Cooking|Normal|SAFE
+9|73.3|327|YES|Normal Cooking|Normal|SAFE
+10|74.3|326|YES|Normal Cooking|Normal|SAFE
+11|75.6|327|YES|Normal Cooking|Normal|SAFE
+12|71.3|328|YES|Normal Cooking|Normal|SAFE
+13|75.7|329|YES|Normal Cooking|Normal|SAFE
+14|78.1|338|YES|Normal Cooking|Normal|SAFE
+15|73.3|334|YES|Normal Cooking|Normal|SAFE
+16|73.3|333|YES|Normal Cooking|Normal|SAFE
+17|79.2|325|YES|Normal Cooking|Normal|SAFE
+18|77.2|336|YES|Normal Cooking|Normal|SAFE
+19|80.0|334|YES|Normal Cooking|Normal|SAFE
+20|79.4|336|YES|Normal Cooking|Normal|SAFE
+21|77.0|328|YES|Normal Cooking|Normal|SAFE
+22|79.4|333|YES|Normal Cooking|Normal|SAFE
+23|79.1|331|YES|Normal Cooking|Normal|SAFE
+24|81.6|332|YES|Normal Cooking|Normal|SAFE
+25|82.4|343|YES|Normal Cooking|Normal|SAFE
+26|79.2|338|YES|Normal Cooking|Normal|SAFE
+27|82.0|338|YES|Normal Cooking|Normal|SAFE
+28|82.7|346|YES|Normal Cooking|Normal|SAFE
+29|81.9|334|YES|Normal Cooking|Normal|SAFE
+30|79.7|337|YES|Normal Cooking|Normal|SAFE
+31|82.8|339|YES|Normal Cooking|Normal|SAFE
+32|82.5|339|YES|Normal Cooking|Normal|SAFE
+33|82.6|343|YES|Normal Cooking|Normal|SAFE
+34|82.5|337|YES|Normal Cooking|Normal|SAFE
+35|83.8|340|YES|Normal Cooking|Normal|SAFE
+36|84.5|339|YES|Normal Cooking|Normal|SAFE
+37|81.8|339|YES|Normal Cooking|Normal|SAFE
+38|85.7|343|YES|Normal Cooking|Normal|SAFE
+39|84.5|338|YES|Normal Cooking|Normal|SAFE
+40|86.2|340|YES|Normal Cooking|Normal|SAFE
+41|85.1|344|YES|Normal Cooking|Normal|SAFE
+42|86.6|347|YES|Normal Cooking|Normal|SAFE
+43|86.4|344|YES|Normal Cooking|Normal|SAFE
+44|85.2|340|YES|Normal Cooking|Normal|SAFE
+45|84.6|349|YES|Normal Cooking|Normal|SAFE
+46|85.5|332|YES|Normal Cooking|Normal|SAFE
+47|88.8|351|YES|Normal Cooking|Normal|SAFE
+48|85.0|339|YES|Normal Cooking|Normal|SAFE
+49|83.9|335|YES|Normal Cooking|Normal|SAFE
+50|82.7|342|YES|Normal Cooking|Normal|SAFE
+51|86.7|341|YES|Normal Cooking|Normal|SAFE
+52|84.1|329|YES|Normal Cooking|Normal|SAFE
+53|83.3|336|YES|Normal Cooking|Normal|SAFE
+54|84.7|338|YES|Normal Cooking|Normal|SAFE
+55|84.1|342|YES|Normal Cooking|Normal|SAFE
+56|83.4|327|YES|Normal Cooking|Normal|SAFE
+57|84.7|328|YES|Normal Cooking|Normal|SAFE
+58|80.6|327|YES|Normal Cooking|Normal|SAFE
+59|84.9|335|YES|Normal Cooking|Normal|SAFE
+60|83.1|338|YES|Normal Cooking|Normal|SAFE
+61|83.2|341|YES|Normal Cooking|Normal|SAFE
+62|83.1|325|YES|Normal Cooking|Normal|SAFE
+63|82.4|332|YES|Normal Cooking|Normal|SAFE
+64|83.1|325|YES|Normal Cooking|Normal|SAFE
+65|84.3|328|YES|Normal Cooking|Normal|SAFE
+66|83.1|326|YES|Normal Cooking|Normal|SAFE
+67|84.4|337|YES|Normal Cooking|Normal|SAFE
+68|83.8|327|YES|Normal Cooking|Normal|SAFE
+69|80.1|333|YES|Normal Cooking|Normal|SAFE
+70|80.7|329|YES|Normal Cooking|Normal|SAFE
+71|78.5|329|YES|Normal Cooking|Normal|SAFE
+72|81.8|331|YES|Normal Cooking|Normal|SAFE
+73|80.6|326|YES|Normal Cooking|Normal|SAFE
+74|79.9|318|YES|Normal Cooking|Normal|SAFE
+75|79.2|332|YES|Normal Cooking|Normal|SAFE
+76|77.4|322|YES|Normal Cooking|Normal|SAFE
+77|77.9|313|YES|Normal Cooking|Normal|SAFE
+78|78.2|320|YES|Normal Cooking|Normal|SAFE
+79|78.5|319|YES|Normal Cooking|Normal|SAFE
+80|77.9|320|YES|Normal Cooking|Normal|SAFE
+81|78.0|313|YES|Normal Cooking|Normal|SAFE
+82|75.7|316|YES|Normal Cooking|Normal|SAFE
+83|76.0|309|YES|Normal Cooking|Normal|SAFE
+84|76.4|319|YES|Normal Cooking|Normal|SAFE
+85|75.6|322|YES|Normal Cooking|Normal|SAFE
+86|74.4|322|YES|Normal Cooking|Normal|SAFE
+87|73.9|321|YES|Normal Cooking|Normal|SAFE
+88|72.3|310|YES|Normal Cooking|Normal|SAFE
+89|73.4|310|YES|Normal Cooking|Normal|SAFE
+90|69.7|316|YES|Normal Cooking|Normal|SAFE
+91|72.6|309|YES|Normal Cooking|Normal|SAFE
+92|70.2|310|YES|Normal Cooking|Normal|SAFE
+93|69.6|308|YES|Normal Cooking|Normal|SAFE
+94|71.8|308|YES|Normal Cooking|Normal|SAFE
+95|70.9|304|YES|Normal Cooking|Normal|SAFE
+96|67.8|318|YES|Normal Cooking|Normal|SAFE
+97|67.9|306|YES|Normal Cooking|Normal|SAFE
+98|66.1|308|YES|Normal Cooking|Normal|SAFE
+99|69.4|302|YES|Normal Cooking|Normal|SAFE
+100|68.7|309|YES|Normal Cooking|Normal|SAFE
+101|65.7|304|YES|Normal Cooking|Normal|SAFE
+102|66.2|298|YES|Normal Cooking|Normal|SAFE
+103|66.3|311|YES|Normal Cooking|Normal|SAFE
+104|66.3|301|YES|Normal Cooking|Normal|SAFE
+105|63.7|304|YES|Normal Cooking|Normal|SAFE
+106|64.8|299|YES|Normal Cooking|Normal|SAFE
+107|64.5|297|YES|Normal Cooking|Normal|SAFE
+108|60.7|299|YES|Normal Cooking|Normal|SAFE
+109|63.6|303|YES|Normal Cooking|Normal|SAFE
+110|66.1|295|YES|Normal Cooking|Normal|SAFE
+111|63.5|301|YES|Normal Cooking|Normal|SAFE
+112|60.9|296|YES|Normal Cooking|Normal|SAFE
+113|62.0|306|YES|Normal Cooking|Normal|SAFE
+114|59.8|304|YES|Normal Cooking|Normal|SAFE
+115|60.8|294|YES|Normal Cooking|Normal|SAFE
+116|60.1|302|YES|Normal Cooking|Normal|SAFE
+117|57.3|305|YES|Normal Cooking|Normal|SAFE
+118|59.1|294|YES|Normal Cooking|Normal|SAFE
+119|59.2|290|YES|Normal Cooking|Normal|SAFE
+120|59.9|297|YES|Normal Cooking|Normal|SAFE
+121|55.7|301|YES|Normal Cooking|Normal|SAFE
+122|59.6|301|YES|Normal Cooking|Normal|SAFE
+123|57.7|294|YES|Normal Cooking|Normal|SAFE
+124|57.4|304|YES|Normal Cooking|Normal|SAFE
+125|57.7|295|YES|Normal Cooking|Normal|SAFE
+126|57.6|301|YES|Normal Cooking|Normal|SAFE
+127|54.0|297|YES|Normal Cooking|Normal|SAFE
+128|56.5|294|YES|Normal Cooking|Normal|SAFE
+129|56.9|309|YES|Normal Cooking|Normal|SAFE
+130|56.4|301|YES|Normal Cooking|Normal|SAFE
+131|53.5|309|YES|Normal Cooking|Normal|SAFE
+132|57.1|307|YES|Normal Cooking|Normal|SAFE
+133|56.0|305|YES|Normal Cooking|Normal|SAFE
+134|56.8|293|YES|Normal Cooking|Normal|SAFE
+135|55.7|299|YES|Normal Cooking|Normal|SAFE
+136|56.3|313|YES|Normal Cooking|Normal|SAFE
+137|56.2|300|YES|Normal Cooking|Normal|SAFE
+138|56.8|307|YES|Normal Cooking|Normal|SAFE
+139|55.4|302|YES|Normal Cooking|Normal|SAFE
+140|55.9|316|YES|Normal Cooking|Normal|SAFE
+141|54.4|308|YES|Normal Cooking|Normal|SAFE
+142|55.1|304|YES|Normal Cooking|Normal|SAFE
+143|54.0|307|YES|Normal Cooking|Normal|SAFE
+144|54.5|306|YES|Normal Cooking|Normal|SAFE
+145|54.6|305|YES|Normal Cooking|Normal|SAFE
+146|57.5|312|YES|Normal Cooking|Normal|SAFE
+147|56.9|317|YES|Normal Cooking|Normal|SAFE
+148|54.7|310|YES|Normal Cooking|Normal|SAFE
+149|54.3|317|YES|Normal Cooking|Normal|SAFE
+150|55.3|313|YES|Normal Cooking|Cooling|SAFE
+151|57.2|319|YES|Normal Cooking|Cooling|SAFE
+152|55.8|309|YES|Normal Cooking|Cooling|SAFE
+153|53.4|317|YES|Normal Cooking|Cooling|SAFE
+154|56.5|321|YES|Normal Cooking|Cooling|SAFE
+155|56.0|319|YES|Normal Cooking|Cooling|SAFE
+156|56.5|328|YES|Normal Cooking|Cooling|SAFE
+157|59.0|322|YES|Normal Cooking|Cooling|SAFE
+158|58.1|318|YES|Normal Cooking|Cooling|SAFE
+159|56.4|317|YES|Normal Cooking|Cooling|SAFE
+160|58.1|318|YES|Normal Cooking|Cooling|SAFE
+161|55.7|314|YES|Normal Cooking|Cooling|SAFE
+162|58.2|340|YES|Normal Cooking|Cooling|SAFE
+163|60.9|322|YES|Normal Cooking|Cooling|SAFE
+164|57.2|324|YES|Normal Cooking|Cooling|SAFE
+165|58.9|319|YES|Normal Cooking|Cooling|SAFE
+166|60.5|328|YES|Normal Cooking|Cooling|SAFE
+167|60.8|325|YES|Normal Cooking|Cooling|SAFE
+168|60.6|327|YES|Normal Cooking|Cooling|SAFE
+169|62.8|327|YES|Normal Cooking|Cooling|SAFE
+170|61.5|332|YES|Normal Cooking|Cooling|SAFE
+171|60.7|334|YES|Normal Cooking|Cooling|SAFE
+172|60.2|338|YES|Normal Cooking|Cooling|SAFE
+173|60.8|329|YES|Normal Cooking|Cooling|SAFE
+174|64.1|336|YES|Normal Cooking|Cooling|SAFE
+175|63.1|331|YES|Normal Cooking|Cooling|SAFE
+176|65.7|334|YES|Normal Cooking|Cooling|SAFE
+177|64.3|333|YES|Normal Cooking|Cooling|SAFE
+178|64.6|339|YES|Normal Cooking|Cooling|SAFE
+179|66.1|340|YES|Normal Cooking|Cooling|SAFE
+180|64.7|339|YES|Normal Cooking|Cooling|SAFE
+181|66.6|347|YES|Normal Cooking|Cooling|SAFE
+182|66.5|334|YES|Normal Cooking|Cooling|SAFE
+183|65.5|335|YES|Normal Cooking|Cooling|SAFE
+184|69.2|339|YES|Normal Cooking|Cooling|SAFE
+185|69.4|332|YES|Normal Cooking|Cooling|SAFE
+186|67.2|332|YES|Normal Cooking|Cooling|SAFE
+187|67.7|340|YES|Normal Cooking|Cooling|SAFE
+188|72.1|335|YES|Normal Cooking|Cooling|SAFE
+189|70.0|342|YES|Normal Cooking|Cooling|SAFE
+190|71.4|344|YES|Normal Cooking|Cooling|SAFE
+191|69.8|333|YES|Normal Cooking|Cooling|SAFE
+192|72.9|344|YES|Normal Cooking|Cooling|SAFE
+193|72.4|343|YES|Normal Cooking|Cooling|SAFE
+194|73.3|334|YES|Normal Cooking|Cooling|SAFE
+195|74.8|345|YES|Normal Cooking|Cooling|SAFE
+196|71.5|356|YES|Normal Cooking|Cooling|SAFE
+197|72.4|339|YES|Normal Cooking|Cooling|SAFE
+198|75.7|340|YES|Normal Cooking|Cooling|SAFE
+199|77.2|342|YES|Normal Cooking|Cooling|SAFE
+200|75.5|331|YES|Normal Cooking|Cooling|SAFE

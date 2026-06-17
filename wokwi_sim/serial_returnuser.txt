@@ -1,200 +1,200 @@
-1s | 50.3C | 310ppm | YES | SAFE
-2s | 54.6C | 311ppm | YES | SAFE
-3s | 59.4C | 311ppm | YES | SAFE
-4s | 57.0C | 311ppm | YES | SAFE
-5s | 55.6C | 312ppm | YES | SAFE
-6s | 56.8C | 312ppm | YES | SAFE
-7s | 57.6C | 312ppm | YES | SAFE
-8s | 57.0C | 313ppm | YES | SAFE
-9s | 54.8C | 313ppm | YES | SAFE
-10s | 54.1C | 313ppm | YES | SAFE
-11s | 55.1C | 314ppm | YES | SAFE
-12s | 57.0C | 314ppm | YES | SAFE
-13s | 57.9C | 314ppm | YES | SAFE
-14s | 58.9C | 314ppm | YES | SAFE
-15s | 56.3C | 315ppm | YES | SAFE
-16s | 59.7C | 315ppm | YES | SAFE
-17s | 60.3C | 315ppm | YES | SAFE
-18s | 60.5C | 316ppm | YES | SAFE
-19s | 59.4C | 316ppm | YES | SAFE
-20s | 58.7C | 316ppm | YES | SAFE
-21s | 60.1C | 316ppm | YES | SAFE
-22s | 61.0C | 317ppm | YES | SAFE
-23s | 63.4C | 317ppm | YES | SAFE
-24s | 61.7C | 317ppm | YES | SAFE
-25s | 59.2C | 317ppm | YES | SAFE
-26s | 59.3C | 318ppm | YES | SAFE
-27s | 59.3C | 318ppm | YES | SAFE
-28s | 60.1C | 318ppm | YES | SAFE
-29s | 61.7C | 318ppm | YES | SAFE
-30s | 62.2C | 318ppm | YES | SAFE
-31s | 62.9C | 319ppm | YES | SAFE
-32s | 59.7C | 319ppm | YES | SAFE
-33s | 64.7C | 319ppm | YES | SAFE
-34s | 61.5C | 319ppm | YES | SAFE
-35s | 59.4C | 319ppm | YES | SAFE
-36s | 62.1C | 319ppm | YES | SAFE
-37s | 62.0C | 319ppm | YES | SAFE
-38s | 63.2C | 320ppm | YES | SAFE
-39s | 65.0C | 320ppm | YES | SAFE
-40s | 62.8C | 320ppm | YES | SAFE
-41s | 66.7C | 320ppm | YES | SAFE
-42s | 66.6C | 320ppm | YES | SAFE
-43s | 62.8C | 320ppm | YES | SAFE
-44s | 63.9C | 320ppm | YES | SAFE
-45s | 63.3C | 320ppm | YES | SAFE
-46s | 66.4C | 320ppm | YES | SAFE
-47s | 64.7C | 320ppm | YES | SAFE
-48s | 67.0C | 320ppm | YES | SAFE
-49s | 64.8C | 320ppm | YES | SAFE
-50s | 65.7C | 320ppm | YES | SAFE
-51s | 62.2C | 320ppm | YES | SAFE
-52s | 63.7C | 320ppm | YES | SAFE
-53s | 65.7C | 320ppm | YES | SAFE
-54s | 62.4C | 320ppm | YES | SAFE
-55s | 66.4C | 320ppm | YES | SAFE
-56s | 62.7C | 320ppm | YES | SAFE
-57s | 67.6C | 319ppm | YES | SAFE
-58s | 62.9C | 319ppm | YES | SAFE
-59s | 65.3C | 319ppm | YES | SAFE
-60s | 65.3C | 319ppm | NO | SAFE
-61s | 66.3C | 319ppm | NO | SAFE
-62s | 64.1C | 319ppm | NO | SAFE
-63s | 68.9C | 319ppm | NO | SAFE
-64s | 65.2C | 318ppm | NO | SAFE
-65s | 62.4C | 318ppm | NO | SAFE
-66s | 63.9C | 318ppm | NO | SAFE
-67s | 64.7C | 318ppm | NO | SAFE
-68s | 68.4C | 318ppm | NO | SAFE
-69s | 65.1C | 317ppm | NO | SAFE
-70s | 65.7C | 317ppm | NO | SAFE
-71s | 67.4C | 317ppm | NO | SAFE
-72s | 66.0C | 317ppm | NO | SAFE
-73s | 63.8C | 317ppm | NO | SAFE
-74s | 62.5C | 316ppm | NO | SAFE
-75s | 62.6C | 316ppm | NO | SAFE
-76s | 64.0C | 316ppm | NO | SAFE
-77s | 63.4C | 315ppm | NO | SAFE
-78s | 65.3C | 315ppm | NO | SAFE
-79s | 61.7C | 315ppm | NO | SAFE
-80s | 62.0C | 315ppm | NO | SAFE
-81s | 61.2C | 314ppm | NO | SAFE
-82s | 66.8C | 314ppm | NO | SAFE
-83s | 61.5C | 314ppm | NO | SAFE
-84s | 59.7C | 313ppm | NO | SAFE
-85s | 64.3C | 313ppm | NO | SAFE
-86s | 63.1C | 313ppm | NO | SAFE
-87s | 64.2C | 312ppm | NO | SAFE
-88s | 63.6C | 312ppm | NO | SAFE
-89s | 62.1C | 312ppm | NO | SAFE
-90s | 65.7C | 311ppm | NO | SAFE
-91s | 63.1C | 311ppm | NO | SAFE
-92s | 60.0C | 311ppm | NO | SAFE
-93s | 65.9C | 310ppm | NO | SAFE
-94s | 56.7C | 310ppm | NO | SAFE
-95s | 59.8C | 310ppm | NO | SAFE
-96s | 60.0C | 309ppm | NO | SAFE
-97s | 62.1C | 309ppm | NO | SAFE
-98s | 61.3C | 309ppm | NO | SAFE
-99s | 60.6C | 308ppm | NO | SAFE
-100s | 62.6C | 308ppm | NO | SAFE
-101s | 60.6C | 308ppm | NO | SAFE
-102s | 57.4C | 307ppm | NO | SAFE
-103s | 58.3C | 307ppm | NO | SAFE
-104s | 62.1C | 307ppm | NO | SAFE
-105s | 54.7C | 306ppm | NO | SAFE
-106s | 62.4C | 306ppm | NO | SAFE
-107s | 59.0C | 306ppm | NO | SAFE
-108s | 58.1C | 306ppm | NO | SAFE
-109s | 60.1C | 305ppm | NO | SAFE
-110s | 59.7C | 305ppm | NO | SAFE
-111s | 57.2C | 305ppm | NO | SAFE
-112s | 58.8C | 304ppm | NO | SAFE
-113s | 60.9C | 304ppm | NO | SAFE
-114s | 54.3C | 304ppm | NO | SAFE
-115s | 58.8C | 304ppm | NO | SAFE
-116s | 57.5C | 303ppm | NO | SAFE
-117s | 54.3C | 303ppm | NO | SAFE
-118s | 57.1C | 303ppm | NO | SAFE
-119s | 58.7C | 303ppm | NO | SAFE
-120s | 53.8C | 302ppm | NO | SAFE
-121s | 54.4C | 302ppm | NO | SAFE
-122s | 57.4C | 302ppm | NO | SAFE
-123s | 54.5C | 302ppm | NO | SAFE
-124s | 54.4C | 302ppm | NO | SAFE
-125s | 57.8C | 301ppm | NO | SAFE
-126s | 55.5C | 301ppm | NO | SAFE
-127s | 49.2C | 301ppm | NO | SAFE
-128s | 52.9C | 301ppm | NO | SAFE
-129s | 56.5C | 301ppm | NO | SAFE
-130s | 51.4C | 301ppm | NO | SAFE
-131s | 54.1C | 301ppm | NO | SAFE
-132s | 51.7C | 300ppm | NO | SAFE
-133s | 53.3C | 300ppm | NO | SAFE
-134s | 55.3C | 300ppm | NO | SAFE
-135s | 54.7C | 300ppm | NO | SAFE
-136s | 50.4C | 300ppm | NO | SAFE
-137s | 53.4C | 300ppm | NO | SAFE
-138s | 50.7C | 300ppm | NO | SAFE
-139s | 51.5C | 300ppm | NO | SAFE
-140s | 50.2C | 300ppm | YES | SAFE
-141s | 54.0C | 300ppm | YES | SAFE
-142s | 47.5C | 300ppm | YES | SAFE
-143s | 47.3C | 300ppm | YES | SAFE
-144s | 49.5C | 300ppm | YES | SAFE
-145s | 46.8C | 300ppm | YES | SAFE
-146s | 48.9C | 300ppm | YES | SAFE
-147s | 47.4C | 300ppm | YES | SAFE
-148s | 51.3C | 300ppm | YES | SAFE
-149s | 49.7C | 300ppm | YES | SAFE
-150s | 47.9C | 300ppm | YES | SAFE
-151s | 48.0C | 301ppm | YES | SAFE
-152s | 49.1C | 301ppm | YES | SAFE
-153s | 48.1C | 301ppm | YES | SAFE
-154s | 47.8C | 301ppm | YES | SAFE
-155s | 47.7C | 301ppm | YES | SAFE
-156s | 50.6C | 301ppm | YES | SAFE
-157s | 49.6C | 301ppm | YES | SAFE
-158s | 47.9C | 301ppm | YES | SAFE
-159s | 48.3C | 302ppm | YES | SAFE
-160s | 46.1C | 302ppm | YES | SAFE
-161s | 47.2C | 302ppm | YES | SAFE
-162s | 46.3C | 302ppm | YES | SAFE
-163s | 46.4C | 302ppm | YES | SAFE
-164s | 46.0C | 303ppm | YES | SAFE
-165s | 51.1C | 303ppm | YES | SAFE
-166s | 46.8C | 303ppm | YES | SAFE
-167s | 48.8C | 303ppm | YES | SAFE
-168s | 44.5C | 304ppm | YES | SAFE
-169s | 43.9C | 304ppm | YES | SAFE
-170s | 47.3C | 304ppm | YES | SAFE
-171s | 45.9C | 304ppm | YES | SAFE
-172s | 46.5C | 305ppm | YES | SAFE
-173s | 42.2C | 305ppm | YES | SAFE
-174s | 48.1C | 305ppm | YES | SAFE
-175s | 47.0C | 306ppm | YES | SAFE
-176s | 44.3C | 306ppm | YES | SAFE
-177s | 45.2C | 306ppm | YES | SAFE
-178s | 42.4C | 307ppm | YES | SAFE
-179s | 45.4C | 307ppm | YES | SAFE
-180s | 43.5C | 307ppm | YES | SAFE
-181s | 47.2C | 308ppm | YES | SAFE
-182s | 46.2C | 308ppm | YES | SAFE
-183s | 42.5C | 308ppm | YES | SAFE
-184s | 44.0C | 309ppm | YES | SAFE
-185s | 49.1C | 309ppm | YES | SAFE
-186s | 45.5C | 309ppm | YES | SAFE
-187s | 45.8C | 310ppm | YES | SAFE
-188s | 45.3C | 310ppm | YES | SAFE
-189s | 44.1C | 310ppm | YES | SAFE
-190s | 44.3C | 311ppm | YES | SAFE
-191s | 42.5C | 311ppm | YES | SAFE
-192s | 44.9C | 311ppm | YES | SAFE
-193s | 46.2C | 311ppm | YES | SAFE
-194s | 40.0C | 312ppm | YES | SAFE
-195s | 47.7C | 312ppm | YES | SAFE
-196s | 46.9C | 312ppm | YES | SAFE
-197s | 50.1C | 313ppm | YES | SAFE
-198s | 43.0C | 313ppm | YES | SAFE
-199s | 46.6C | 313ppm | YES | SAFE
-200s | 46.0C | 314ppm | YES | SAFE
+1|54.4|310|YES|Timeout Risk|Cooking|SAFE
+2|55.3|311|YES|Timeout Risk|Cooking|SAFE
+3|57.9|311|YES|Timeout Risk|Cooking|SAFE
+4|57.2|311|YES|Timeout Risk|Cooking|SAFE
+5|58.7|312|YES|Timeout Risk|Cooking|SAFE
+6|58.9|312|YES|Timeout Risk|Cooking|SAFE
+7|57.0|312|YES|Timeout Risk|Cooking|SAFE
+8|54.6|313|YES|Timeout Risk|Cooking|SAFE
+9|54.4|313|YES|Timeout Risk|Cooking|SAFE
+10|58.4|313|YES|Timeout Risk|Cooking|SAFE
+11|60.8|314|YES|Timeout Risk|Cooking|SAFE
+12|55.9|314|YES|Timeout Risk|Cooking|SAFE
+13|55.5|314|YES|Timeout Risk|Cooking|SAFE
+14|60.6|314|YES|Timeout Risk|Cooking|SAFE
+15|59.4|315|YES|Timeout Risk|Cooking|SAFE
+16|60.2|315|YES|Timeout Risk|Cooking|SAFE
+17|53.1|315|YES|Timeout Risk|Cooking|SAFE
+18|58.9|316|YES|Timeout Risk|Cooking|SAFE
+19|60.6|316|YES|Timeout Risk|Cooking|SAFE
+20|57.1|316|YES|Timeout Risk|Cooking|SAFE
+21|57.2|316|YES|Timeout Risk|Cooking|SAFE
+22|61.3|317|YES|Timeout Risk|Cooking|SAFE
+23|61.4|317|YES|Timeout Risk|Cooking|SAFE
+24|59.1|317|YES|Timeout Risk|Cooking|SAFE
+25|60.6|317|YES|Timeout Risk|Cooking|SAFE
+26|63.2|318|YES|Timeout Risk|Cooking|SAFE
+27|63.4|318|YES|Timeout Risk|Cooking|SAFE
+28|59.2|318|YES|Timeout Risk|Cooking|SAFE
+29|61.8|318|YES|Timeout Risk|Cooking|SAFE
+30|61.6|318|YES|Timeout Risk|Cooking|SAFE
+31|63.2|319|YES|Timeout Risk|Cooking|SAFE
+32|61.7|319|YES|Timeout Risk|Cooking|SAFE
+33|60.4|319|YES|Timeout Risk|Cooking|SAFE
+34|65.2|319|YES|Timeout Risk|Cooking|SAFE
+35|63.0|319|YES|Timeout Risk|Cooking|SAFE
+36|63.9|319|YES|Timeout Risk|Cooking|SAFE
+37|67.1|319|YES|Timeout Risk|Cooking|SAFE
+38|66.3|320|YES|Timeout Risk|Cooking|SAFE
+39|63.1|320|YES|Timeout Risk|Cooking|SAFE
+40|66.7|320|YES|Timeout Risk|Cooking|SAFE
+41|62.6|320|YES|Timeout Risk|Cooking|SAFE
+42|62.3|320|YES|Timeout Risk|Cooking|SAFE
+43|62.5|320|YES|Timeout Risk|Cooking|SAFE
+44|65.2|320|YES|Timeout Risk|Cooking|SAFE
+45|62.3|320|YES|Timeout Risk|Cooking|SAFE
+46|62.4|320|YES|Timeout Risk|Cooking|SAFE
+47|67.4|320|YES|Timeout Risk|Cooking|SAFE
+48|68.2|320|YES|Timeout Risk|Cooking|SAFE
+49|65.3|320|YES|Timeout Risk|Cooking|SAFE
+50|61.7|320|YES|Timeout Risk|Cooking|SAFE
+51|66.1|320|YES|Timeout Risk|Cooking|SAFE
+52|60.2|320|YES|Timeout Risk|Cooking|SAFE
+53|67.1|320|YES|Timeout Risk|Cooking|SAFE
+54|63.7|320|YES|Timeout Risk|Cooking|SAFE
+55|68.7|320|YES|Timeout Risk|Cooking|SAFE
+56|62.5|320|YES|Timeout Risk|Cooking|SAFE
+57|66.9|319|YES|Timeout Risk|Cooking|SAFE
+58|67.8|319|YES|Timeout Risk|Cooking|SAFE
+59|64.6|319|YES|Timeout Risk|Cooking|SAFE
+60|68.2|319|NO|Timeout Risk|Unattended|SAFE
+61|62.8|319|NO|Timeout Risk|Unattended|SAFE
+62|61.0|319|NO|Timeout Risk|Unattended|SAFE
+63|65.5|319|NO|Timeout Risk|Unattended|SAFE
+64|65.8|318|NO|Timeout Risk|Unattended|SAFE
+65|63.1|318|NO|Timeout Risk|Unattended|SAFE
+66|64.3|318|NO|Timeout Risk|Unattended|SAFE
+67|63.1|318|NO|Timeout Risk|Unattended|SAFE
+68|61.9|318|NO|Timeout Risk|Unattended|SAFE
+69|62.5|317|NO|Timeout Risk|Unattended|SAFE
+70|62.4|317|NO|Timeout Risk|Unattended|SAFE
+71|67.2|317|NO|Timeout Risk|Unattended|SAFE
+72|65.7|317|NO|Timeout Risk|Unattended|SAFE
+73|64.5|317|NO|Timeout Risk|Unattended|SAFE
+74|65.7|316|NO|Timeout Risk|Unattended|SAFE
+75|62.0|316|NO|Timeout Risk|Unattended|SAFE
+76|63.3|316|NO|Timeout Risk|Unattended|SAFE
+77|66.5|315|NO|Timeout Risk|Unattended|SAFE
+78|63.5|315|NO|Timeout Risk|Unattended|SAFE
+79|61.4|315|NO|Timeout Risk|Unattended|SAFE
+80|62.9|315|NO|Timeout Risk|Unattended|SAFE
+81|62.9|314|NO|Timeout Risk|Unattended|SAFE
+82|63.9|314|NO|Timeout Risk|Unattended|SAFE
+83|64.4|314|NO|Timeout Risk|Unattended|SAFE
+84|64.9|313|NO|Timeout Risk|Unattended|SAFE
+85|66.9|313|NO|Timeout Risk|Unattended|SAFE
+86|61.7|313|NO|Timeout Risk|Unattended|SAFE
+87|66.5|312|NO|Timeout Risk|Unattended|SAFE
+88|64.7|312|NO|Timeout Risk|Unattended|SAFE
+89|63.3|312|NO|Timeout Risk|Unattended|SAFE
+90|63.4|311|NO|Timeout Risk|Unattended|SAFE
+91|62.7|311|NO|Timeout Risk|Unattended|SAFE
+92|59.3|311|NO|Timeout Risk|Unattended|SAFE
+93|61.3|310|NO|Timeout Risk|Unattended|SAFE
+94|57.4|310|NO|Timeout Risk|Unattended|SAFE
+95|66.5|310|NO|Timeout Risk|Unattended|SAFE
+96|60.6|309|NO|Timeout Risk|Unattended|SAFE
+97|61.2|309|NO|Timeout Risk|Unattended|SAFE
+98|60.7|309|NO|Timeout Risk|Unattended|SAFE
+99|59.2|308|NO|Timeout Risk|Unattended|SAFE
+100|60.1|308|NO|Timeout Risk|Unattended|SAFE
+101|57.5|308|NO|Timeout Risk|Unattended|SAFE
+102|56.8|307|NO|Timeout Risk|Unattended|SAFE
+103|59.5|307|NO|Timeout Risk|Unattended|SAFE
+104|64.9|307|NO|Timeout Risk|Unattended|SAFE
+105|58.4|306|NO|Timeout Risk|Unattended|SAFE
+106|61.5|306|NO|Timeout Risk|Unattended|SAFE
+107|59.2|306|NO|Timeout Risk|Unattended|SAFE
+108|55.8|306|NO|Timeout Risk|Unattended|SAFE
+109|56.2|305|NO|Timeout Risk|Unattended|SAFE
+110|58.8|305|NO|Timeout Risk|Unattended|SAFE
+111|59.0|305|NO|Timeout Risk|Unattended|SAFE
+112|55.9|304|NO|Timeout Risk|Unattended|SAFE
+113|57.6|304|NO|Timeout Risk|Unattended|SAFE
+114|60.5|304|NO|Timeout Risk|Unattended|SAFE
+115|58.4|304|NO|Timeout Risk|Unattended|SAFE
+116|55.7|303|NO|Timeout Risk|Unattended|SAFE
+117|57.2|303|NO|Timeout Risk|Unattended|SAFE
+118|54.2|303|NO|Timeout Risk|Unattended|SAFE
+119|57.6|303|NO|Timeout Risk|Unattended|SAFE
+120|56.6|302|NO|Timeout Risk|Unattended|SAFE
+121|56.4|302|NO|Timeout Risk|Unattended|SAFE
+122|53.8|302|NO|Timeout Risk|Unattended|SAFE
+123|55.5|302|NO|Timeout Risk|Unattended|SAFE
+124|55.8|302|NO|Timeout Risk|Unattended|SAFE
+125|57.7|301|NO|Timeout Risk|Unattended|SAFE
+126|55.8|301|NO|Timeout Risk|Unattended|SAFE
+127|53.3|301|NO|Timeout Risk|Unattended|SAFE
+128|57.4|301|NO|Timeout Risk|Unattended|SAFE
+129|52.7|301|NO|Timeout Risk|Unattended|SAFE
+130|51.0|301|NO|Timeout Risk|Unattended|SAFE
+131|56.3|301|NO|Timeout Risk|Unattended|SAFE
+132|56.1|300|NO|Timeout Risk|Unattended|SAFE
+133|54.4|300|NO|Timeout Risk|Unattended|SAFE
+134|54.2|300|NO|Timeout Risk|Unattended|SAFE
+135|56.5|300|NO|Timeout Risk|Unattended|SAFE
+136|51.0|300|NO|Timeout Risk|Unattended|SAFE
+137|52.6|300|NO|Timeout Risk|Unattended|SAFE
+138|54.7|300|NO|Timeout Risk|Unattended|SAFE
+139|53.8|300|NO|Timeout Risk|Unattended|SAFE
+140|51.4|300|YES|Timeout Risk|Returned|SAFE
+141|50.7|300|YES|Timeout Risk|Returned|SAFE
+142|49.1|300|YES|Timeout Risk|Returned|SAFE
+143|49.3|300|YES|Timeout Risk|Returned|SAFE
+144|51.3|300|YES|Timeout Risk|Returned|SAFE
+145|51.1|300|YES|Timeout Risk|Returned|SAFE
+146|50.6|300|YES|Timeout Risk|Returned|SAFE
+147|48.4|300|YES|Timeout Risk|Returned|SAFE
+148|51.2|300|YES|Timeout Risk|Returned|SAFE
+149|47.5|300|YES|Timeout Risk|Returned|SAFE
+150|48.7|300|YES|Timeout Risk|Returned|SAFE
+151|47.8|301|YES|Timeout Risk|Returned|SAFE
+152|47.9|301|YES|Timeout Risk|Returned|SAFE
+153|46.3|301|YES|Timeout Risk|Returned|SAFE
+154|45.7|301|YES|Timeout Risk|Returned|SAFE
+155|51.2|301|YES|Timeout Risk|Returned|SAFE
+156|49.5|301|YES|Timeout Risk|Returned|SAFE
+157|45.7|301|YES|Timeout Risk|Returned|SAFE
+158|49.0|301|YES|Timeout Risk|Returned|SAFE
+159|44.3|302|YES|Timeout Risk|Returned|SAFE
+160|46.0|302|YES|Timeout Risk|Returned|SAFE
+161|50.9|302|YES|Timeout Risk|Returned|SAFE
+162|51.0|302|YES|Timeout Risk|Returned|SAFE
+163|45.3|302|YES|Timeout Risk|Returned|SAFE
+164|45.8|303|YES|Timeout Risk|Returned|SAFE
+165|45.0|303|YES|Timeout Risk|Returned|SAFE
+166|46.6|303|YES|Timeout Risk|Returned|SAFE
+167|48.2|303|YES|Timeout Risk|Returned|SAFE
+168|46.8|304|YES|Timeout Risk|Returned|SAFE
+169|47.2|304|YES|Timeout Risk|Returned|SAFE
+170|46.3|304|YES|Timeout Risk|Returned|SAFE
+171|48.2|304|YES|Timeout Risk|Returned|SAFE
+172|47.1|305|YES|Timeout Risk|Returned|SAFE
+173|44.7|305|YES|Timeout Risk|Returned|SAFE
+174|43.1|305|YES|Timeout Risk|Returned|SAFE
+175|50.7|306|YES|Timeout Risk|Returned|SAFE
+176|43.5|306|YES|Timeout Risk|Returned|SAFE
+177|48.4|306|YES|Timeout Risk|Returned|SAFE
+178|47.9|307|YES|Timeout Risk|Returned|SAFE
+179|48.5|307|YES|Timeout Risk|Returned|SAFE
+180|41.2|307|YES|Timeout Risk|Returned|SAFE
+181|50.8|308|YES|Timeout Risk|Returned|SAFE
+182|44.7|308|YES|Timeout Risk|Returned|SAFE
+183|47.5|308|YES|Timeout Risk|Returned|SAFE
+184|47.5|309|YES|Timeout Risk|Returned|SAFE
+185|47.9|309|YES|Timeout Risk|Returned|SAFE
+186|44.7|309|YES|Timeout Risk|Returned|SAFE
+187|46.4|310|YES|Timeout Risk|Returned|SAFE
+188|43.5|310|YES|Timeout Risk|Returned|SAFE
+189|42.6|310|YES|Timeout Risk|Returned|SAFE
+190|44.8|311|YES|Timeout Risk|Returned|SAFE
+191|42.8|311|YES|Timeout Risk|Returned|SAFE
+192|43.6|311|YES|Timeout Risk|Returned|SAFE
+193|39.8|311|YES|Timeout Risk|Returned|SAFE
+194|46.1|312|YES|Timeout Risk|Returned|SAFE
+195|44.5|312|YES|Timeout Risk|Returned|SAFE
+196|45.4|312|YES|Timeout Risk|Returned|SAFE
+197|44.0|313|YES|Timeout Risk|Returned|SAFE
+198|45.5|313|YES|Timeout Risk|Returned|SAFE
+199|46.5|313|YES|Timeout Risk|Returned|SAFE
+200|42.7|314|YES|Timeout Risk|Returned|SAFE

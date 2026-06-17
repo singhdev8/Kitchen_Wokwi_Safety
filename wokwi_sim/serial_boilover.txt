@@ -1,53 +1,200 @@
-ets Jul 29 2019 12:21:46
-
-rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
-configsip: 0, SPIWP:0xee
-clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
-mode:DIO, clock div:2
-load:0x3fff0030,len:1156
-load:0x40078000,len:11456
-ho 0 tail 12 room 4
-load:0x40080400,len:2972
-entry 0x400805dc
-================================
-  Smart Kitchen Safety System
-  Layer 1 Rule Engine ACTIVE
-================================
-Time | Temp  | Gas   | PIR | Status
------+-------+-------+-----+-------
-1s	| 73.0C	| 300 ppm	| NO	| SAFE
-2s	| 73.0C	| 300 ppm	| NO	| SAFE
-3s	| 73.0C	| 300 ppm	| NO	| SAFE
-4s	| 73.0C	| 300 ppm	| NO	| SAFE
-5s	| 73.0C	| 300 ppm	| NO	| SAFE
-6s	| 73.0C	| 300 ppm	| NO	| SAFE
-7s	| 73.0C	| 300 ppm	| NO	| SAFE
-8s	| 73.0C	| 300 ppm	| NO	| SAFE
-9s	| 73.0C	| 300 ppm	| NO	| SAFE
-10s	| 73.0C	| 300 ppm	| NO	| SAFE
-11s	| 73.0C	| 300 ppm	| NO	| SAFE
-12s	| 73.0C	| 300 ppm	| NO	| SAFE
-13s	| 73.0C	| 300 ppm	| NO	| SAFE
-14s	| 73.0C	| 300 ppm	| NO	| SAFE
-15s	| 73.0C	| 300 ppm	| NO	| SAFE
-16s	| 73.0C	| 300 ppm	| NO	| SAFE
-17s	| 73.0C	| 300 ppm	| NO	| SAFE
-18s	| 73.0C	| 300 ppm	| NO	| SAFE
-19s	| 73.0C	| 300 ppm	| NO	| SAFE
-20s	| 73.0C	| 300 ppm	| NO	| SAFE
-21s	| 73.0C	| 300 ppm	| NO	| SAFE
-22s	| 73.0C	| 319 ppm	| NO	| SAFE
-23s	| 73.0C	| 319 ppm	| NO	| SAFE
-24s	| 73.0C	| 319 ppm	| NO	| SAFE
-25s	| 73.0C	| 319 ppm	| NO	| SAFE
-26s	| 73.0C	| 319 ppm	| NO	| SAFE
-27s	| 73.0C	| 319 ppm	| NO	| SAFE
-28s	| 73.0C	| 319 ppm	| NO	| SAFE
-29s	| 73.0C	| 319 ppm	| NO	| SAFE
-30s	| 73.0C	| 319 ppm	| NO	| SAFE
-31s	| 73.0C	| 400 ppm	| NO	| RULE 2 FIRED — GAS LEAK
-================================
-!!  SHUTOFF TRIGGERED  !!
-    Reason : GAS LEAK
-    Time   : 31s
-================================
+1|32.2|310|YES|Milk Boilover|Heating|SAFE
+2|35.6|311|YES|Milk Boilover|Heating|SAFE
+3|38.3|312|YES|Milk Boilover|Heating|SAFE
+4|41.2|305|YES|Milk Boilover|Heating|SAFE
+5|39.6|317|YES|Milk Boilover|Heating|SAFE
+6|46.4|311|YES|Milk Boilover|Heating|SAFE
+7|46.3|316|YES|Milk Boilover|Heating|SAFE
+8|49.8|314|YES|Milk Boilover|Heating|SAFE
+9|51.5|319|YES|Milk Boilover|Heating|SAFE
+10|52.2|321|YES|Milk Boilover|Heating|SAFE
+11|54.2|318|YES|Milk Boilover|Heating|SAFE
+12|59.9|316|YES|Milk Boilover|Heating|SAFE
+13|56.6|319|YES|Milk Boilover|Heating|SAFE
+14|57.6|317|YES|Milk Boilover|Heating|SAFE
+15|64.4|319|YES|Milk Boilover|Heating|SAFE
+16|64.1|324|YES|Milk Boilover|Heating|SAFE
+17|64.5|322|YES|Milk Boilover|Heating|SAFE
+18|65.4|318|YES|Milk Boilover|Heating|SAFE
+19|67.5|319|YES|Milk Boilover|Heating|SAFE
+20|65.1|326|YES|Milk Boilover|Heating|SAFE
+21|72.2|325|YES|Milk Boilover|Heating|SAFE
+22|73.9|326|YES|Milk Boilover|Heating|SAFE
+23|72.1|320|YES|Milk Boilover|Heating|SAFE
+24|74.7|319|YES|Milk Boilover|Heating|SAFE
+25|73.1|319|YES|Milk Boilover|Heating|SAFE
+26|74.7|324|YES|Milk Boilover|Heating|SAFE
+27|74.7|324|YES|Milk Boilover|Heating|SAFE
+28|76.1|328|YES|Milk Boilover|Heating|SAFE
+29|78.7|327|YES|Milk Boilover|Heating|SAFE
+30|78.7|324|YES|Milk Boilover|Heating|SAFE
+31|79.7|327|YES|Milk Boilover|Heating|SAFE
+32|82.6|329|YES|Milk Boilover|Heating|SAFE
+33|79.7|327|YES|Milk Boilover|Heating|SAFE
+34|80.3|324|YES|Milk Boilover|Heating|SAFE
+35|82.0|332|YES|Milk Boilover|Heating|SAFE
+36|84.5|320|YES|Milk Boilover|Heating|SAFE
+37|84.5|320|YES|Milk Boilover|Heating|SAFE
+38|86.0|320|YES|Milk Boilover|Heating|SAFE
+39|87.7|324|YES|Milk Boilover|Heating|SAFE
+40|87.2|327|YES|Milk Boilover|Approaching Boil|SAFE
+41|85.4|325|YES|Milk Boilover|Approaching Boil|SAFE
+42|88.0|321|YES|Milk Boilover|Approaching Boil|SAFE
+43|88.9|323|YES|Milk Boilover|Approaching Boil|SAFE
+44|86.7|318|YES|Milk Boilover|Approaching Boil|SAFE
+45|92.4|325|YES|Milk Boilover|Approaching Boil|SAFE
+46|87.3|323|YES|Milk Boilover|Approaching Boil|SAFE
+47|92.7|325|YES|Milk Boilover|Approaching Boil|SAFE
+48|91.2|318|YES|Milk Boilover|Approaching Boil|SAFE
+49|88.4|321|YES|Milk Boilover|Approaching Boil|SAFE
+50|91.7|320|YES|Milk Boilover|Approaching Boil|SAFE
+51|88.9|317|YES|Milk Boilover|Approaching Boil|SAFE
+52|90.9|318|YES|Milk Boilover|Approaching Boil|SAFE
+53|93.0|315|YES|Milk Boilover|Approaching Boil|SAFE
+54|94.7|317|YES|Milk Boilover|Approaching Boil|SAFE
+55|91.2|317|YES|Milk Boilover|Approaching Boil|SAFE
+56|94.9|315|YES|Milk Boilover|Approaching Boil|SAFE
+57|92.8|314|YES|Milk Boilover|Approaching Boil|SAFE
+58|95.6|306|YES|Milk Boilover|Approaching Boil|SAFE
+59|93.7|316|YES|Milk Boilover|Approaching Boil|SAFE
+60|91.9|312|YES|Milk Boilover|Approaching Boil|SAFE
+61|95.3|306|YES|Milk Boilover|Approaching Boil|SAFE
+62|91.9|310|YES|Milk Boilover|Approaching Boil|SAFE
+63|97.2|314|YES|Milk Boilover|Approaching Boil|SAFE
+64|94.9|309|YES|Milk Boilover|Approaching Boil|SAFE
+65|97.8|304|YES|Milk Boilover|Approaching Boil|SAFE
+66|94.5|309|YES|Milk Boilover|Approaching Boil|SAFE
+67|93.2|303|YES|Milk Boilover|Approaching Boil|SAFE
+68|100.5|302|YES|Milk Boilover|Approaching Boil|SAFE
+69|95.1|305|YES|Milk Boilover|Approaching Boil|SAFE
+70|98.5|309|YES|Milk Boilover|Approaching Boil|SAFE
+71|97.0|306|YES|Milk Boilover|Approaching Boil|SAFE
+72|94.3|303|YES|Milk Boilover|Approaching Boil|SAFE
+73|98.1|300|YES|Milk Boilover|Approaching Boil|SAFE
+74|94.6|301|YES|Milk Boilover|Approaching Boil|SAFE
+75|96.9|299|YES|Milk Boilover|Approaching Boil|SAFE
+76|96.3|300|YES|Milk Boilover|Approaching Boil|SAFE
+77|96.4|293|YES|Milk Boilover|Approaching Boil|SAFE
+78|99.3|297|YES|Milk Boilover|Approaching Boil|SAFE
+79|96.9|301|YES|Milk Boilover|Approaching Boil|SAFE
+80|96.6|298|YES|Milk Boilover|Approaching Boil|SAFE
+81|96.4|300|YES|Milk Boilover|Approaching Boil|SAFE
+82|98.3|298|YES|Milk Boilover|Approaching Boil|SAFE
+83|95.8|300|YES|Milk Boilover|Approaching Boil|SAFE
+84|96.8|296|YES|Milk Boilover|Approaching Boil|SAFE
+85|98.9|301|YES|Milk Boilover|Approaching Boil|SAFE
+86|98.8|299|YES|Milk Boilover|Approaching Boil|SAFE
+87|100.0|296|YES|Milk Boilover|Approaching Boil|SAFE
+88|99.4|287|YES|Milk Boilover|Approaching Boil|SAFE
+89|100.1|291|YES|Milk Boilover|Approaching Boil|SAFE
+90|98.7|289|YES|Milk Boilover|Approaching Boil|SAFE
+91|95.8|295|YES|Milk Boilover|Approaching Boil|SAFE
+92|97.3|294|YES|Milk Boilover|Approaching Boil|SAFE
+93|98.8|292|YES|Milk Boilover|Approaching Boil|SAFE
+94|100.3|287|YES|Milk Boilover|Approaching Boil|SAFE
+95|100.0|296|YES|Milk Boilover|Approaching Boil|SAFE
+96|94.9|298|YES|Milk Boilover|Approaching Boil|SAFE
+97|101.1|295|YES|Milk Boilover|Approaching Boil|SAFE
+98|96.3|294|YES|Milk Boilover|Approaching Boil|SAFE
+99|99.2|297|YES|Milk Boilover|Approaching Boil|SAFE
+100|97.2|298|YES|Milk Boilover|Boiling Over|SAFE
+101|94.6|295|YES|Milk Boilover|Boiling Over|SAFE
+102|98.7|300|YES|Milk Boilover|Boiling Over|SAFE
+103|98.2|302|YES|Milk Boilover|Boiling Over|SAFE
+104|99.6|297|YES|Milk Boilover|Boiling Over|SAFE
+105|100.5|297|YES|Milk Boilover|Boiling Over|SAFE
+106|97.1|302|YES|Milk Boilover|Boiling Over|SAFE
+107|97.7|292|YES|Milk Boilover|Boiling Over|SAFE
+108|98.2|298|YES|Milk Boilover|Boiling Over|SAFE
+109|99.7|299|YES|Milk Boilover|Boiling Over|SAFE
+110|98.4|295|YES|Milk Boilover|Boiling Over|SAFE
+111|99.6|299|YES|Milk Boilover|Boiling Over|SAFE
+112|97.7|300|YES|Milk Boilover|Boiling Over|SAFE
+113|100.1|298|YES|Milk Boilover|Boiling Over|SAFE
+114|101.7|303|YES|Milk Boilover|Boiling Over|SAFE
+115|97.3|302|YES|Milk Boilover|Boiling Over|SAFE
+116|97.2|303|YES|Milk Boilover|Boiling Over|SAFE
+117|100.3|303|YES|Milk Boilover|Boiling Over|SAFE
+118|96.0|303|YES|Milk Boilover|Boiling Over|SAFE
+119|101.4|312|YES|Milk Boilover|Boiling Over|SAFE
+120|92.9|311|YES|Milk Boilover|Boiling Over|SAFE
+121|99.4|306|YES|Milk Boilover|Boiling Over|SAFE
+122|98.7|308|YES|Milk Boilover|Boiling Over|SAFE
+123|100.0|307|YES|Milk Boilover|Boiling Over|SAFE
+124|101.4|309|YES|Milk Boilover|Boiling Over|SAFE
+125|100.3|309|YES|Milk Boilover|Boiling Over|SAFE
+126|102.1|313|YES|Milk Boilover|Boiling Over|SAFE
+127|96.7|312|YES|Milk Boilover|Boiling Over|SAFE
+128|100.7|311|YES|Milk Boilover|Boiling Over|SAFE
+129|99.2|311|YES|Milk Boilover|Boiling Over|SAFE
+130|98.7|314|YES|Milk Boilover|Boiling Over|SAFE
+131|101.1|310|YES|Milk Boilover|Boiling Over|SAFE
+132|98.3|317|YES|Milk Boilover|Boiling Over|SAFE
+133|103.6|315|YES|Milk Boilover|Boiling Over|SAFE
+134|102.6|314|YES|Milk Boilover|Boiling Over|SAFE
+135|98.1|310|YES|Milk Boilover|Boiling Over|SAFE
+136|100.0|316|YES|Milk Boilover|Boiling Over|SAFE
+137|101.2|320|YES|Milk Boilover|Boiling Over|SAFE
+138|100.8|316|YES|Milk Boilover|Boiling Over|SAFE
+139|101.3|326|YES|Milk Boilover|Boiling Over|SAFE
+140|97.6|325|YES|Milk Boilover|Boiling Over|SAFE
+141|98.3|320|YES|Milk Boilover|Boiling Over|SAFE
+142|99.2|326|YES|Milk Boilover|Boiling Over|SAFE
+143|100.6|324|YES|Milk Boilover|Boiling Over|SAFE
+144|101.1|327|YES|Milk Boilover|Boiling Over|SAFE
+145|98.9|316|YES|Milk Boilover|Boiling Over|SAFE
+146|99.2|327|YES|Milk Boilover|Boiling Over|SAFE
+147|99.6|322|YES|Milk Boilover|Boiling Over|SAFE
+148|104.8|324|YES|Milk Boilover|Boiling Over|SAFE
+149|99.4|323|YES|Milk Boilover|Boiling Over|SAFE
+150|98.4|318|YES|Milk Boilover|Boiling Over|SAFE
+151|100.0|320|YES|Milk Boilover|Boiling Over|SAFE
+152|101.6|325|YES|Milk Boilover|Boiling Over|SAFE
+153|99.0|328|YES|Milk Boilover|Boiling Over|SAFE
+154|99.3|326|YES|Milk Boilover|Boiling Over|SAFE
+155|101.6|322|YES|Milk Boilover|Boiling Over|SAFE
+156|100.4|329|YES|Milk Boilover|Boiling Over|SAFE
+157|101.6|324|YES|Milk Boilover|Boiling Over|SAFE
+158|99.0|329|YES|Milk Boilover|Boiling Over|SAFE
+159|97.4|324|YES|Milk Boilover|Boiling Over|SAFE
+160|105.2|318|YES|Milk Boilover|Boiling Over|SAFE
+161|100.0|321|YES|Milk Boilover|Boiling Over|SAFE
+162|98.8|318|YES|Milk Boilover|Boiling Over|SAFE
+163|100.7|325|YES|Milk Boilover|Boiling Over|SAFE
+164|99.7|316|YES|Milk Boilover|Boiling Over|SAFE
+165|102.0|325|YES|Milk Boilover|Boiling Over|SAFE
+166|100.3|323|YES|Milk Boilover|Boiling Over|SAFE
+167|96.9|324|YES|Milk Boilover|Boiling Over|SAFE
+168|98.4|323|YES|Milk Boilover|Boiling Over|SAFE
+169|99.3|321|YES|Milk Boilover|Boiling Over|SAFE
+170|98.3|318|YES|Milk Boilover|Boiling Over|SAFE
+171|101.0|323|YES|Milk Boilover|Boiling Over|SAFE
+172|100.4|315|YES|Milk Boilover|Boiling Over|SAFE
+173|100.5|317|YES|Milk Boilover|Boiling Over|SAFE
+174|97.4|319|YES|Milk Boilover|Boiling Over|SAFE
+175|101.0|315|YES|Milk Boilover|Boiling Over|SAFE
+176|98.9|316|YES|Milk Boilover|Boiling Over|SAFE
+177|102.4|321|YES|Milk Boilover|Boiling Over|SAFE
+178|99.7|317|YES|Milk Boilover|Boiling Over|SAFE
+179|100.4|319|YES|Milk Boilover|Boiling Over|SAFE
+180|103.4|317|YES|Milk Boilover|Boiling Over|SAFE
+181|100.1|318|YES|Milk Boilover|Boiling Over|SAFE
+182|97.8|314|YES|Milk Boilover|Boiling Over|SAFE
+183|98.8|308|YES|Milk Boilover|Boiling Over|SAFE
+184|102.2|310|YES|Milk Boilover|Boiling Over|SAFE
+185|100.3|315|YES|Milk Boilover|Boiling Over|SAFE
+186|100.1|312|YES|Milk Boilover|Boiling Over|SAFE
+187|97.9|308|YES|Milk Boilover|Boiling Over|SAFE
+188|100.9|307|YES|Milk Boilover|Boiling Over|SAFE
+189|101.9|309|YES|Milk Boilover|Boiling Over|SAFE
+190|100.7|315|YES|Milk Boilover|Boiling Over|SAFE
+191|102.6|314|YES|Milk Boilover|Boiling Over|SAFE
+192|98.6|309|YES|Milk Boilover|Boiling Over|SAFE
+193|96.4|313|YES|Milk Boilover|Boiling Over|SAFE
+194|101.3|300|YES|Milk Boilover|Boiling Over|SAFE
+195|100.1|308|YES|Milk Boilover|Boiling Over|SAFE
+196|99.2|307|YES|Milk Boilover|Boiling Over|SAFE
+197|97.2|304|YES|Milk Boilover|Boiling Over|SAFE
+198|98.9|301|YES|Milk Boilover|Boiling Over|SAFE
+199|99.3|308|YES|Milk Boilover|Boiling Over|SAFE
+200|101.1|301|YES|Milk Boilover|Boiling Over|SAFE

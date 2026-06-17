@@ -53,8 +53,17 @@ LABEL_MAP = {
     
     'serial_partialflameout': 4,
 }
-FEATURE_COLS = ['mean_temp','mean_gas','dT_dt','dG_dt',
-                'max_temp','presence','time_norm']
+FEATURE_COLS = [
+    'mean_temp',
+    'mean_gas',
+    'dT_dt',
+    'dG_dt',
+    'max_temp',
+    'presence',
+    'temp_std',
+    'gas_std',
+    'time_norm'
+]
 
 def parse_line(line):
     try:
@@ -86,6 +95,8 @@ def extract_from_log(filepath, label):
             'dT_dt':     np.polyfit(np.arange(W),wt,1)[0],
             'dG_dt':     np.polyfit(np.arange(W),wg,1)[0],
             'max_temp':  np.max(wt),  'presence': np.mean(wp),
+            'temp_std': np.std(wt),
+            'gas_std': np.std(wg),
             'time_norm': min(tih[i]/total_t, 1.0),
             'label': label, 'class_name': CLASS_NAMES[label],
             'source': os.path.basename(filepath)
@@ -156,7 +167,13 @@ y = combined['label'].values
 X_tr,X_te,y_tr,y_te = train_test_split(
     X, y, test_size=0.2, random_state=42, stratify=y)
 
-clf = RandomForestClassifier(n_estimators=150, max_depth=12, random_state=42)
+clf = RandomForestClassifier(
+    n_estimators=100,          # reduced from 200
+    max_depth=5,               # reduced from 7
+    min_samples_leaf=10,       # increased from 4
+    class_weight='balanced',
+    random_state=42
+)
 clf.fit(X_tr, y_tr)
 
 train_acc = clf.score(X_tr, y_tr)*100

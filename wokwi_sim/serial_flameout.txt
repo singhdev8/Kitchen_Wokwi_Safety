@@ -1,250 +1,250 @@
-1s | 36.0C | 302ppm | YES | SAFE
-2s | 37.4C | 297ppm | YES | SAFE
-3s | 40.4C | 289ppm | YES | SAFE
-4s | 42.1C | 301ppm | YES | SAFE
-5s | 38.9C | 300ppm | YES | SAFE
-6s | 41.9C | 308ppm | YES | SAFE
-7s | 46.1C | 300ppm | YES | SAFE
-8s | 43.4C | 300ppm | YES | SAFE
-9s | 44.3C | 297ppm | YES | SAFE
-10s | 45.5C | 297ppm | YES | SAFE
-11s | 43.7C | 309ppm | YES | SAFE
-12s | 46.8C | 290ppm | YES | SAFE
-13s | 44.9C | 298ppm | YES | SAFE
-14s | 49.0C | 292ppm | YES | SAFE
-15s | 49.3C | 300ppm | YES | SAFE
-16s | 49.9C | 307ppm | YES | SAFE
-17s | 52.5C | 308ppm | YES | SAFE
-18s | 50.0C | 306ppm | YES | SAFE
-19s | 52.6C | 309ppm | YES | SAFE
-20s | 54.0C | 303ppm | YES | SAFE
-21s | 50.1C | 292ppm | YES | SAFE
-22s | 55.3C | 301ppm | YES | SAFE
-23s | 54.3C | 309ppm | YES | SAFE
-24s | 52.9C | 307ppm | YES | SAFE
-25s | 55.8C | 305ppm | YES | SAFE
-26s | 56.2C | 297ppm | YES | SAFE
-27s | 56.9C | 299ppm | YES | SAFE
-28s | 56.4C | 304ppm | YES | SAFE
-29s | 59.7C | 294ppm | YES | SAFE
-30s | 58.1C | 301ppm | YES | SAFE
-31s | 61.1C | 301ppm | YES | SAFE
-32s | 58.7C | 302ppm | YES | SAFE
-33s | 59.4C | 311ppm | YES | SAFE
-34s | 63.4C | 310ppm | YES | SAFE
-35s | 59.8C | 297ppm | YES | SAFE
-36s | 61.6C | 307ppm | YES | SAFE
-37s | 61.5C | 302ppm | YES | SAFE
-38s | 62.6C | 299ppm | YES | SAFE
-39s | 62.7C | 289ppm | YES | SAFE
-40s | 65.9C | 291ppm | YES | SAFE
-41s | 64.9C | 299ppm | YES | SAFE
-42s | 65.6C | 302ppm | YES | SAFE
-43s | 64.3C | 294ppm | YES | SAFE
-44s | 64.7C | 297ppm | YES | SAFE
-45s | 65.7C | 297ppm | YES | SAFE
-46s | 65.9C | 302ppm | YES | SAFE
-47s | 66.2C | 304ppm | YES | SAFE
-48s | 66.7C | 298ppm | YES | SAFE
-49s | 67.2C | 306ppm | YES | SAFE
-50s | 68.1C | 310ppm | YES | SAFE
-51s | 66.1C | 287ppm | YES | SAFE
-52s | 68.5C | 298ppm | YES | SAFE
-53s | 69.4C | 304ppm | YES | SAFE
-54s | 68.1C | 299ppm | YES | SAFE
-55s | 68.3C | 294ppm | YES | SAFE
-56s | 69.8C | 295ppm | YES | SAFE
-57s | 70.1C | 306ppm | YES | SAFE
-58s | 68.3C | 298ppm | YES | SAFE
-59s | 71.6C | 296ppm | YES | SAFE
-60s | 70.6C | 308ppm | YES | SAFE
-61s | 71.6C | 305ppm | YES | SAFE
-62s | 71.6C | 300ppm | YES | SAFE
-63s | 72.0C | 305ppm | YES | SAFE
-64s | 69.4C | 307ppm | YES | SAFE
-65s | 71.2C | 305ppm | YES | SAFE
-66s | 73.6C | 301ppm | YES | SAFE
-67s | 73.8C | 304ppm | YES | SAFE
-68s | 70.8C | 299ppm | YES | SAFE
-69s | 70.3C | 304ppm | YES | SAFE
-70s | 75.6C | 301ppm | YES | SAFE
-71s | 72.5C | 296ppm | YES | SAFE
-72s | 72.4C | 301ppm | YES | SAFE
-73s | 72.6C | 301ppm | YES | SAFE
-74s | 72.2C | 299ppm | YES | SAFE
-75s | 72.4C | 302ppm | YES | SAFE
-76s | 74.5C | 300ppm | YES | SAFE
-77s | 73.9C | 296ppm | YES | SAFE
-78s | 72.3C | 296ppm | YES | SAFE
-79s | 74.1C | 288ppm | YES | SAFE
-80s | 72.6C | 305ppm | YES | SAFE
-81s | 74.1C | 304ppm | YES | SAFE
-82s | 74.3C | 306ppm | YES | SAFE
-83s | 74.9C | 297ppm | YES | SAFE
-84s | 74.7C | 293ppm | YES | SAFE
-85s | 74.1C | 304ppm | YES | SAFE
-86s | 73.7C | 295ppm | YES | SAFE
-87s | 77.5C | 298ppm | YES | SAFE
-88s | 74.2C | 303ppm | YES | SAFE
-89s | 74.0C | 312ppm | YES | SAFE
-90s | 76.3C | 298ppm | YES | SAFE
-91s | 79.2C | 312ppm | YES | SAFE
-92s | 76.6C | 298ppm | YES | SAFE
-93s | 77.5C | 306ppm | YES | SAFE
-94s | 75.7C | 306ppm | YES | SAFE
-95s | 77.0C | 327ppm | YES | SAFE
-96s | 73.0C | 312ppm | YES | SAFE
-97s | 74.6C | 319ppm | YES | SAFE
-98s | 71.6C | 317ppm | YES | SAFE
-99s | 72.7C | 318ppm | YES | SAFE
-100s | 74.6C | 320ppm | YES | SAFE
-101s | 71.2C | 319ppm | YES | SAFE
-102s | 71.6C | 320ppm | YES | SAFE
-103s | 70.4C | 325ppm | YES | SAFE
-104s | 69.7C | 326ppm | YES | SAFE
-105s | 66.9C | 340ppm | YES | SAFE
-106s | 65.2C | 343ppm | YES | SAFE
-107s | 67.7C | 342ppm | YES | SAFE
-108s | 66.8C | 340ppm | YES | SAFE
-109s | 66.7C | 341ppm | YES | SAFE
-110s | 67.0C | 349ppm | YES | SAFE
-111s | 67.7C | 349ppm | YES | SAFE
-112s | 65.8C | 345ppm | YES | SAFE
-113s | 64.1C | 349ppm | YES | SAFE
-114s | 64.5C | 358ppm | YES | SAFE
-115s | 62.8C | 355ppm | YES | SAFE
-116s | 62.9C | 362ppm | YES | SAFE
-117s | 61.5C | 361ppm | YES | SAFE
-118s | 62.8C | 359ppm | YES | SAFE
-119s | 60.0C | 364ppm | YES | SAFE
-120s | 60.1C | 355ppm | YES | SAFE
-121s | 58.2C | 380ppm | YES | SAFE
-122s | 59.8C | 370ppm | YES | SAFE
-123s | 58.7C | 370ppm | YES | SAFE
-124s | 58.8C | 374ppm | YES | SAFE
-125s | 59.9C | 382ppm | YES | SAFE
-126s | 54.8C | 384ppm | YES | SAFE
-127s | 56.9C | 380ppm | YES | SAFE
-128s | 54.8C | 400ppm | YES | SAFE
-129s | 53.9C | 380ppm | YES | SAFE
-130s | 54.3C | 388ppm | YES | SAFE
-131s | 54.0C | 384ppm | YES | SAFE
-132s | 52.2C | 398ppm | YES | SAFE
-133s | 51.1C | 388ppm | YES | SAFE
-134s | 51.7C | 386ppm | YES | SAFE
-135s | 50.0C | 393ppm | YES | SAFE
-136s | 48.2C | 407ppm | YES | SAFE
-137s | 50.2C | 406ppm | YES | SAFE
-138s | 49.5C | 405ppm | YES | SAFE
-139s | 49.1C | 417ppm | YES | SAFE
-140s | 49.5C | 410ppm | YES | SAFE
-141s | 48.2C | 414ppm | YES | SAFE
-142s | 46.4C | 410ppm | YES | SAFE
-143s | 43.9C | 420ppm | YES | SAFE
-144s | 46.7C | 412ppm | YES | SAFE
-145s | 44.6C | 407ppm | YES | SAFE
-146s | 46.0C | 424ppm | YES | SAFE
-147s | 43.2C | 422ppm | YES | SAFE
-148s | 42.5C | 429ppm | YES | SAFE
-149s | 43.7C | 429ppm | YES | SAFE
-150s | 40.7C | 432ppm | YES | SAFE
-151s | 41.6C | 434ppm | YES | SAFE
-152s | 39.8C | 440ppm | YES | SAFE
-153s | 41.5C | 439ppm | YES | SAFE
-154s | 39.5C | 446ppm | YES | SAFE
-155s | 37.4C | 443ppm | YES | SAFE
-156s | 35.4C | 427ppm | YES | SAFE
-157s | 39.3C | 455ppm | YES | SAFE
-158s | 35.2C | 449ppm | YES | SAFE
-159s | 37.9C | 446ppm | YES | SAFE
-160s | 41.9C | 449ppm | YES | SAFE
-161s | 43.2C | 447ppm | YES | SAFE
-162s | 40.1C | 462ppm | YES | SAFE
-163s | 43.3C | 454ppm | YES | SAFE
-164s | 40.3C | 451ppm | YES | SAFE
-165s | 42.4C | 457ppm | YES | SAFE
-166s | 42.4C | 464ppm | YES | SAFE
-167s | 41.3C | 454ppm | YES | SAFE
-168s | 41.7C | 449ppm | YES | SAFE
-169s | 40.9C | 461ppm | YES | SAFE
-170s | 39.8C | 458ppm | YES | SAFE
-171s | 40.4C | 463ppm | YES | SAFE
-172s | 39.1C | 467ppm | YES | SAFE
-173s | 43.4C | 468ppm | YES | SAFE
-174s | 41.4C | 459ppm | YES | SAFE
-175s | 40.8C | 461ppm | YES | SAFE
-176s | 43.4C | 466ppm | YES | SAFE
-177s | 40.0C | 470ppm | YES | SAFE
-178s | 40.7C | 464ppm | YES | SAFE
-179s | 40.8C | 470ppm | YES | SAFE
-180s | 39.4C | 473ppm | YES | SAFE
-181s | 40.1C | 480ppm | YES | SAFE
-182s | 42.0C | 469ppm | YES | SAFE
-183s | 37.0C | 481ppm | YES | SAFE
-184s | 39.5C | 478ppm | YES | SAFE
-185s | 37.5C | 478ppm | YES | SAFE
-186s | 38.7C | 485ppm | YES | SAFE
-187s | 38.6C | 485ppm | YES | SAFE
-188s | 39.2C | 485ppm | YES | SAFE
-189s | 38.6C | 479ppm | YES | SAFE
-190s | 39.4C | 471ppm | YES | SAFE
-191s | 37.8C | 496ppm | YES | SAFE
-192s | 38.6C | 496ppm | YES | SAFE
-193s | 36.2C | 486ppm | YES | SAFE
-194s | 37.7C | 485ppm | YES | SAFE
-195s | 37.8C | 494ppm | YES | SAFE
-196s | 39.4C | 493ppm | YES | SAFE
-197s | 38.7C | 490ppm | YES | SAFE
-198s | 38.1C | 485ppm | YES | SAFE
-199s | 37.8C | 496ppm | YES | SAFE
-200s | 39.5C | 496ppm | YES | SAFE
-201s | 37.8C | 501ppm | YES | SAFE
-202s | 38.4C | 505ppm | YES | SAFE
-203s | 35.4C | 505ppm | YES | SAFE
-204s | 36.9C | 504ppm | YES | SAFE
-205s | 38.3C | 511ppm | YES | SAFE
-206s | 38.1C | 514ppm | YES | SAFE
-207s | 37.2C | 500ppm | YES | SAFE
-208s | 36.6C | 499ppm | YES | SAFE
-209s | 37.4C | 501ppm | YES | SAFE
-210s | 37.5C | 512ppm | YES | SAFE
-211s | 36.8C | 511ppm | YES | SAFE
-212s | 36.4C | 510ppm | YES | SAFE
-213s | 38.3C | 523ppm | YES | SAFE
-214s | 36.0C | 522ppm | YES | SAFE
-215s | 36.9C | 511ppm | YES | SAFE
-216s | 38.2C | 519ppm | YES | SAFE
-217s | 38.2C | 517ppm | YES | SAFE
-218s | 38.2C | 528ppm | YES | SAFE
-219s | 39.7C | 524ppm | YES | SAFE
-220s | 36.7C | 521ppm | YES | SAFE
-221s | 36.7C | 520ppm | YES | SAFE
-222s | 38.4C | 524ppm | YES | SAFE
-223s | 37.8C | 535ppm | YES | SAFE
-224s | 36.8C | 527ppm | YES | SAFE
-225s | 37.9C | 534ppm | YES | SAFE
-226s | 35.2C | 540ppm | YES | SAFE
-227s | 37.6C | 525ppm | YES | SAFE
-228s | 35.7C | 529ppm | YES | SAFE
-229s | 35.5C | 532ppm | YES | SAFE
-230s | 37.0C | 531ppm | YES | SAFE
-231s | 33.9C | 533ppm | YES | SAFE
-232s | 33.7C | 525ppm | YES | SAFE
-233s | 36.9C | 542ppm | YES | SAFE
-234s | 35.8C | 540ppm | YES | SAFE
-235s | 34.0C | 538ppm | YES | SAFE
-236s | 37.8C | 540ppm | YES | SAFE
-237s | 36.7C | 547ppm | YES | SAFE
-238s | 35.9C | 543ppm | YES | SAFE
-239s | 34.4C | 546ppm | YES | SAFE
-240s | 37.2C | 549ppm | YES | SAFE
-241s | 36.5C | 552ppm | YES | SAFE
-242s | 37.3C | 557ppm | YES | SAFE
-243s | 38.6C | 554ppm | YES | SAFE
-244s | 38.0C | 549ppm | YES | SAFE
-245s | 35.4C | 554ppm | YES | SAFE
-246s | 35.3C | 558ppm | YES | SAFE
-247s | 34.9C | 553ppm | YES | SAFE
-248s | 37.5C | 551ppm | YES | SAFE
-249s | 38.7C | 561ppm | YES | SAFE
-250s | 38.0C | 559ppm | YES | SAFE
+1|36.3|287|YES|Flame-out|Heating|SAFE
+2|37.0|298|YES|Flame-out|Heating|SAFE
+3|38.9|298|YES|Flame-out|Heating|SAFE
+4|39.0|296|YES|Flame-out|Heating|SAFE
+5|40.3|294|YES|Flame-out|Heating|SAFE
+6|40.5|310|YES|Flame-out|Heating|SAFE
+7|43.1|296|YES|Flame-out|Heating|SAFE
+8|44.5|303|YES|Flame-out|Heating|SAFE
+9|44.4|308|YES|Flame-out|Heating|SAFE
+10|43.6|304|YES|Flame-out|Heating|SAFE
+11|44.0|291|YES|Flame-out|Heating|SAFE
+12|48.7|298|YES|Flame-out|Heating|SAFE
+13|45.6|296|YES|Flame-out|Heating|SAFE
+14|49.5|300|YES|Flame-out|Heating|SAFE
+15|50.1|297|YES|Flame-out|Heating|SAFE
+16|48.6|287|YES|Flame-out|Heating|SAFE
+17|50.5|304|YES|Flame-out|Heating|SAFE
+18|51.3|301|YES|Flame-out|Heating|SAFE
+19|52.9|306|YES|Flame-out|Heating|SAFE
+20|52.5|296|YES|Flame-out|Heating|SAFE
+21|53.4|304|YES|Flame-out|Heating|SAFE
+22|54.9|306|YES|Flame-out|Heating|SAFE
+23|53.0|301|YES|Flame-out|Heating|SAFE
+24|52.7|308|YES|Flame-out|Heating|SAFE
+25|56.9|314|YES|Flame-out|Heating|SAFE
+26|55.2|303|YES|Flame-out|Heating|SAFE
+27|56.8|308|YES|Flame-out|Heating|SAFE
+28|58.8|311|YES|Flame-out|Heating|SAFE
+29|59.8|298|YES|Flame-out|Heating|SAFE
+30|58.4|298|YES|Flame-out|Heating|SAFE
+31|59.4|289|YES|Flame-out|Heating|SAFE
+32|57.8|306|YES|Flame-out|Heating|SAFE
+33|58.7|304|YES|Flame-out|Heating|SAFE
+34|61.1|291|YES|Flame-out|Heating|SAFE
+35|61.3|297|YES|Flame-out|Heating|SAFE
+36|62.9|301|YES|Flame-out|Heating|SAFE
+37|62.8|300|YES|Flame-out|Heating|SAFE
+38|61.1|302|YES|Flame-out|Heating|SAFE
+39|64.5|303|YES|Flame-out|Heating|SAFE
+40|63.4|298|YES|Flame-out|Heating|SAFE
+41|63.1|314|YES|Flame-out|Heating|SAFE
+42|64.2|307|YES|Flame-out|Heating|SAFE
+43|65.2|301|YES|Flame-out|Heating|SAFE
+44|63.7|310|YES|Flame-out|Heating|SAFE
+45|65.3|289|YES|Flame-out|Heating|SAFE
+46|68.5|303|YES|Flame-out|Heating|SAFE
+47|65.5|304|YES|Flame-out|Heating|SAFE
+48|66.0|307|YES|Flame-out|Heating|SAFE
+49|66.0|299|YES|Flame-out|Heating|SAFE
+50|69.3|294|YES|Flame-out|Heating|SAFE
+51|67.1|305|YES|Flame-out|Heating|SAFE
+52|66.9|297|YES|Flame-out|Heating|SAFE
+53|67.9|304|YES|Flame-out|Heating|SAFE
+54|68.7|292|YES|Flame-out|Heating|SAFE
+55|70.0|308|YES|Flame-out|Heating|SAFE
+56|68.2|313|YES|Flame-out|Heating|SAFE
+57|69.5|300|YES|Flame-out|Heating|SAFE
+58|68.8|298|YES|Flame-out|Heating|SAFE
+59|69.9|305|YES|Flame-out|Heating|SAFE
+60|69.6|299|YES|Flame-out|Heating|SAFE
+61|70.1|297|YES|Flame-out|Heating|SAFE
+62|72.6|292|YES|Flame-out|Heating|SAFE
+63|70.4|305|YES|Flame-out|Heating|SAFE
+64|73.1|296|YES|Flame-out|Heating|SAFE
+65|70.6|305|YES|Flame-out|Heating|SAFE
+66|70.6|312|YES|Flame-out|Heating|SAFE
+67|70.5|304|YES|Flame-out|Heating|SAFE
+68|70.9|287|YES|Flame-out|Heating|SAFE
+69|73.8|307|YES|Flame-out|Heating|SAFE
+70|73.4|300|YES|Flame-out|Heating|SAFE
+71|73.9|297|YES|Flame-out|Heating|SAFE
+72|74.2|300|YES|Flame-out|Heating|SAFE
+73|73.1|299|YES|Flame-out|Heating|SAFE
+74|73.5|303|YES|Flame-out|Heating|SAFE
+75|74.4|287|YES|Flame-out|Heating|SAFE
+76|72.4|296|YES|Flame-out|Heating|SAFE
+77|73.7|303|YES|Flame-out|Heating|SAFE
+78|72.7|291|YES|Flame-out|Heating|SAFE
+79|72.9|304|YES|Flame-out|Heating|SAFE
+80|74.9|298|YES|Flame-out|Heating|SAFE
+81|76.0|296|YES|Flame-out|Heating|SAFE
+82|75.1|297|YES|Flame-out|Heating|SAFE
+83|75.9|296|YES|Flame-out|Heating|SAFE
+84|71.2|305|YES|Flame-out|Heating|SAFE
+85|74.2|289|YES|Flame-out|Heating|SAFE
+86|75.4|301|YES|Flame-out|Heating|SAFE
+87|74.9|299|YES|Flame-out|Heating|SAFE
+88|72.4|302|YES|Flame-out|Heating|SAFE
+89|75.4|298|YES|Flame-out|Heating|SAFE
+90|78.4|309|YES|Flame-out|Flame Out|SAFE
+91|78.6|308|YES|Flame-out|Flame Out|SAFE
+92|76.8|299|YES|Flame-out|Flame Out|SAFE
+93|74.9|299|YES|Flame-out|Flame Out|SAFE
+94|75.0|322|YES|Flame-out|Flame Out|SAFE
+95|73.6|305|YES|Flame-out|Flame Out|SAFE
+96|74.6|309|YES|Flame-out|Flame Out|SAFE
+97|73.2|312|YES|Flame-out|Flame Out|SAFE
+98|72.5|315|YES|Flame-out|Flame Out|SAFE
+99|73.2|314|YES|Flame-out|Flame Out|SAFE
+100|73.8|327|YES|Flame-out|Flame Out|SAFE
+101|69.8|323|YES|Flame-out|Flame Out|SAFE
+102|70.0|320|YES|Flame-out|Flame Out|SAFE
+103|69.0|327|YES|Flame-out|Flame Out|SAFE
+104|69.3|328|YES|Flame-out|Flame Out|SAFE
+105|68.2|325|YES|Flame-out|Flame Out|SAFE
+106|68.2|330|YES|Flame-out|Flame Out|SAFE
+107|67.5|336|YES|Flame-out|Flame Out|SAFE
+108|67.1|341|YES|Flame-out|Flame Out|SAFE
+109|66.0|346|YES|Flame-out|Flame Out|SAFE
+110|65.5|347|YES|Flame-out|Flame Out|SAFE
+111|64.6|343|YES|Flame-out|Flame Out|SAFE
+112|64.6|353|YES|Flame-out|Flame Out|SAFE
+113|63.1|354|YES|Flame-out|Flame Out|SAFE
+114|64.6|357|YES|Flame-out|Flame Out|SAFE
+115|64.8|356|YES|Flame-out|Flame Out|SAFE
+116|62.0|372|YES|Flame-out|Flame Out|SAFE
+117|62.0|357|YES|Flame-out|Flame Out|SAFE
+118|62.3|358|YES|Flame-out|Flame Out|SAFE
+119|59.7|371|YES|Flame-out|Flame Out|SAFE
+120|60.7|365|YES|Flame-out|Flame Out|SAFE
+121|58.4|370|YES|Flame-out|Flame Out|SAFE
+122|57.6|376|YES|Flame-out|Flame Out|SAFE
+123|59.3|374|YES|Flame-out|Flame Out|SAFE
+124|58.4|374|YES|Flame-out|Flame Out|SAFE
+125|54.7|377|YES|Flame-out|Flame Out|SAFE
+126|57.7|379|YES|Flame-out|Flame Out|SAFE
+127|54.6|379|YES|Flame-out|Flame Out|SAFE
+128|56.5|376|YES|Flame-out|Flame Out|SAFE
+129|54.7|386|YES|Flame-out|Flame Out|SAFE
+130|54.4|384|YES|Flame-out|Flame Out|SAFE
+131|53.8|391|YES|Flame-out|Flame Out|SAFE
+132|51.1|386|YES|Flame-out|Flame Out|SAFE
+133|51.2|390|YES|Flame-out|Flame Out|SAFE
+134|53.0|394|YES|Flame-out|Flame Out|SAFE
+135|51.1|404|YES|Flame-out|Flame Out|SAFE
+136|52.5|405|YES|Flame-out|Flame Out|SAFE
+137|50.5|403|YES|Flame-out|Flame Out|SAFE
+138|47.6|422|YES|Flame-out|Flame Out|SAFE
+139|48.5|410|YES|Flame-out|Flame Out|SAFE
+140|47.6|403|YES|Flame-out|Flame Out|SAFE
+141|46.7|416|YES|Flame-out|Flame Out|SAFE
+142|47.6|408|YES|Flame-out|Flame Out|SAFE
+143|47.0|416|YES|Flame-out|Flame Out|SAFE
+144|48.5|420|YES|Flame-out|Flame Out|SAFE
+145|43.1|422|YES|Flame-out|Flame Out|SAFE
+146|44.4|426|YES|Flame-out|Flame Out|SAFE
+147|44.4|425|YES|Flame-out|Flame Out|SAFE
+148|42.8|419|YES|Flame-out|Flame Out|SAFE
+149|44.1|434|YES|Flame-out|Flame Out|SAFE
+150|41.8|427|YES|Flame-out|Flame Out|SAFE
+151|41.2|431|YES|Flame-out|Flame Out|SAFE
+152|39.2|432|YES|Flame-out|Flame Out|SAFE
+153|40.8|440|YES|Flame-out|Flame Out|SAFE
+154|41.6|430|YES|Flame-out|Flame Out|SAFE
+155|37.7|442|YES|Flame-out|Flame Out|SAFE
+156|37.7|447|YES|Flame-out|Flame Out|SAFE
+157|38.8|456|YES|Flame-out|Flame Out|SAFE
+158|37.3|450|YES|Flame-out|Flame Out|SAFE
+159|34.9|460|YES|Flame-out|Flame Out|SAFE
+160|44.0|450|YES|Flame-out|Gas Leak|SAFE
+161|43.2|454|YES|Flame-out|Gas Leak|SAFE
+162|41.1|444|YES|Flame-out|Gas Leak|SAFE
+163|41.6|445|YES|Flame-out|Gas Leak|SAFE
+164|43.9|444|YES|Flame-out|Gas Leak|SAFE
+165|42.5|452|YES|Flame-out|Gas Leak|SAFE
+166|42.4|453|YES|Flame-out|Gas Leak|SAFE
+167|40.6|459|YES|Flame-out|Gas Leak|SAFE
+168|40.8|456|YES|Flame-out|Gas Leak|SAFE
+169|40.4|466|YES|Flame-out|Gas Leak|SAFE
+170|40.9|458|YES|Flame-out|Gas Leak|SAFE
+171|41.9|462|YES|Flame-out|Gas Leak|SAFE
+172|41.2|473|YES|Flame-out|Gas Leak|SAFE
+173|40.2|463|YES|Flame-out|Gas Leak|SAFE
+174|39.6|465|YES|Flame-out|Gas Leak|SAFE
+175|41.7|472|YES|Flame-out|Gas Leak|SAFE
+176|41.4|463|YES|Flame-out|Gas Leak|SAFE
+177|40.4|468|YES|Flame-out|Gas Leak|SAFE
+178|40.8|470|YES|Flame-out|Gas Leak|SAFE
+179|37.0|469|YES|Flame-out|Gas Leak|SAFE
+180|39.3|468|YES|Flame-out|Gas Leak|SAFE
+181|39.3|488|YES|Flame-out|Gas Leak|SAFE
+182|40.9|481|YES|Flame-out|Gas Leak|SAFE
+183|40.1|477|YES|Flame-out|Gas Leak|SAFE
+184|42.1|476|YES|Flame-out|Gas Leak|SAFE
+185|41.0|467|YES|Flame-out|Gas Leak|SAFE
+186|37.8|478|YES|Flame-out|Gas Leak|SAFE
+187|38.8|481|YES|Flame-out|Gas Leak|SAFE
+188|36.5|477|YES|Flame-out|Gas Leak|SAFE
+189|38.1|489|YES|Flame-out|Gas Leak|SAFE
+190|36.5|482|YES|Flame-out|Gas Leak|SAFE
+191|38.5|486|YES|Flame-out|Gas Leak|SAFE
+192|37.8|492|YES|Flame-out|Gas Leak|SAFE
+193|39.9|482|YES|Flame-out|Gas Leak|SAFE
+194|39.1|487|YES|Flame-out|Gas Leak|SAFE
+195|39.7|489|YES|Flame-out|Gas Leak|SAFE
+196|37.7|501|YES|Flame-out|Gas Leak|SAFE
+197|41.0|479|YES|Flame-out|Gas Leak|SAFE
+198|36.4|485|YES|Flame-out|Gas Leak|SAFE
+199|38.3|505|YES|Flame-out|Gas Leak|SAFE
+200|38.6|488|YES|Flame-out|Gas Leak|SAFE
+201|40.0|497|YES|Flame-out|Gas Leak|SAFE
+202|38.7|498|YES|Flame-out|Gas Leak|SAFE
+203|37.7|495|YES|Flame-out|Gas Leak|SAFE
+204|38.9|495|YES|Flame-out|Gas Leak|SAFE
+205|39.4|502|YES|Flame-out|Gas Leak|SAFE
+206|37.4|496|YES|Flame-out|Gas Leak|SAFE
+207|36.7|514|YES|Flame-out|Gas Leak|SAFE
+208|38.2|502|YES|Flame-out|Gas Leak|SAFE
+209|38.5|493|YES|Flame-out|Gas Leak|SAFE
+210|36.3|504|YES|Flame-out|Gas Leak|SAFE
+211|37.4|508|YES|Flame-out|Gas Leak|SAFE
+212|37.6|504|YES|Flame-out|Gas Leak|SAFE
+213|36.6|508|YES|Flame-out|Gas Leak|SAFE
+214|38.3|518|YES|Flame-out|Gas Leak|SAFE
+215|38.2|522|YES|Flame-out|Gas Leak|SAFE
+216|36.4|519|YES|Flame-out|Gas Leak|SAFE
+217|35.8|517|YES|Flame-out|Gas Leak|SAFE
+218|37.8|511|YES|Flame-out|Gas Leak|SAFE
+219|36.2|521|YES|Flame-out|Gas Leak|SAFE
+220|35.3|509|YES|Flame-out|Gas Leak|SAFE
+221|35.1|521|YES|Flame-out|Gas Leak|SAFE
+222|34.9|523|YES|Flame-out|Gas Leak|SAFE
+223|36.1|532|YES|Flame-out|Gas Leak|SAFE
+224|39.2|527|YES|Flame-out|Gas Leak|SAFE
+225|36.8|523|YES|Flame-out|Gas Leak|SAFE
+226|36.0|528|YES|Flame-out|Gas Leak|SAFE
+227|35.4|533|YES|Flame-out|Gas Leak|SAFE
+228|37.7|535|YES|Flame-out|Gas Leak|SAFE
+229|36.6|535|YES|Flame-out|Gas Leak|SAFE
+230|37.6|533|YES|Flame-out|Gas Leak|SAFE
+231|35.9|538|YES|Flame-out|Gas Leak|SAFE
+232|37.7|532|YES|Flame-out|Gas Leak|SAFE
+233|35.1|547|YES|Flame-out|Gas Leak|SAFE
+234|36.1|537|YES|Flame-out|Gas Leak|SAFE
+235|38.4|540|YES|Flame-out|Gas Leak|SAFE
+236|36.8|556|YES|Flame-out|Gas Leak|SAFE
+237|38.1|551|YES|Flame-out|Gas Leak|SAFE
+238|37.2|548|YES|Flame-out|Gas Leak|SAFE
+239|35.0|540|YES|Flame-out|Gas Leak|SAFE
+240|34.7|547|YES|Flame-out|Gas Leak|SAFE
+241|38.0|539|YES|Flame-out|Gas Leak|SAFE
+242|36.9|552|YES|Flame-out|Gas Leak|SAFE
+243|35.1|544|YES|Flame-out|Gas Leak|SAFE
+244|35.4|557|YES|Flame-out|Gas Leak|SAFE
+245|34.1|559|YES|Flame-out|Gas Leak|SAFE
+246|36.0|551|YES|Flame-out|Gas Leak|SAFE
+247|35.8|558|YES|Flame-out|Gas Leak|SAFE
+248|36.2|564|YES|Flame-out|Gas Leak|SAFE
+249|37.9|557|YES|Flame-out|Gas Leak|SAFE
+250|35.7|557|YES|Flame-out|Gas Leak|SAFE

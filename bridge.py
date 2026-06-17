@@ -1,6 +1,7 @@
 import numpy as np
 import joblib
 import os
+import re
 
 BASE = '/Users/devkaransinghsarkaria/kitchen_safety'
 clf = joblib.load(os.path.join(BASE, 'wokwi_sim', 'kitchen_clf.pkl'))
@@ -9,25 +10,50 @@ CLASS_NAMES = ["Normal Cooking", "Milk Boilover",
                "Gas Leak", "Timeout Risk", "Flame-out"]
 
 W = 30
-CONF_THRESH = 75
+CONF_THRESH = 65
 
-# ── PARSER ──────────────────────────────────────────────────
+# ── ROBUST PARSER (handles both new and old formats) ──────────
 def parse_line(line):
     try:
         if '|' not in line:
             return None
         if any(x in line for x in ['Time', '===', '---', '!!', 'Reason', 'Smart', 'Layer', 'Scenario']):
             return None
-        parts = line.split('|')
+
+        parts = [p.strip() for p in line.split('|')]
         if len(parts) < 4:
             return None
-        time_s    = float(parts[0].strip().replace('s', ''))
-        temp      = float(parts[1].strip().replace('C', ''))
-        gas       = float(parts[2].strip().replace('ppm', ''))
-        presence  = 1.0 if 'YES' in parts[3].upper() else 0.0
-        l1_status = parts[4].strip() if len(parts) > 4 else "SAFE"
-        return time_s, temp, gas, presence, l1_status
-    except:
+
+        # Clean numeric fields: remove 's', 'C', 'ppm', trailing spaces
+        time_str = re.sub(r'[^0-9.]', '', parts[0])  # remove everything except digits and dot
+        temp_str = re.sub(r'[^0-9.\-]', '', parts[1])
+        gas_str  = re.sub(r'[^0-9.\-]', '', parts[2])
+
+        time_s = float(time_str)
+        temp   = float(temp_str)
+        gas    = float(gas_str)
+
+        presence = 1.0 if 'YES' in parts[3].upper() else 0.0
+
+        # Optional fields: scenario, phase, status
+        scenario = "unknown"
+        phase    = "unknown"
+        status   = "SAFE"
+
+        if len(parts) >= 7:
+            scenario = parts[4].strip()
+            phase    = parts[5].strip()
+            status   = parts[6].strip()
+        elif len(parts) == 5:
+            # Old format: time|temp|gas|presence|status
+            status = parts[4].strip()
+        elif len(parts) == 4:
+            # Minimal: time|temp|gas|presence
+            pass
+
+        return (time_s, temp, gas, presence, scenario, phase, status)
+
+    except Exception:
         return None
 
 # ── FEATURE EXTRACTION — identical to train.py ───────────────
@@ -40,9 +66,11 @@ def extract_features(temp_hist, gas_hist, pres_hist, time_s):
         np.mean(w_temp),
         np.mean(w_gas),
         np.polyfit(np.arange(n), w_temp, 1)[0],
-        np.polyfit(np.arange(n), w_gas,  1)[0],
+        np.polyfit(np.arange(n), w_gas, 1)[0],
         np.max(w_temp),
         np.mean(w_pres),
+        np.std(w_temp),
+        np.std(w_gas),
         min(time_s / 1200.0, 1.0)
     ]])
 
@@ -52,10 +80,7 @@ with open(os.path.join(BASE, 'wokwi_sim', 'serial_output.txt'), 'r') as f:
 
 temp_hist, gas_hist, pres_hist = [], [], []
 
-# Log every row's outcome so the summary can be built from real data,
-# not retyped from memory.
-rows_log = []   # (time_s, temp, gas, presence, l1_status, ml_label, confidence, l1_danger, l2_danger)
-
+rows_log = []
 ml_fired_at = None
 l1_fired_at = None
 ml_fired_label = None
@@ -63,10 +88,20 @@ ml_fired_conf  = None
 
 print("=" * 75)
 print("  LAYER 1 + LAYER 2 INTEGRATION — WOKWI SERIAL OUTPUT")
-print("  Source: serial_output.txt (real ESP32 simulation via Wokwi CLI)")
+print("  Source: serial_output.txt")
 print("=" * 75)
-print(f"{'Time':>5} | {'Temp':>6} | {'Gas':>7} | {'PIR':>3} | "
-      f"{'Layer 1':<26} | {'Layer 2 ML':<16} | {'Conf':>5} | {'Match'}")
+print(
+    f"{'Time':>5} | "
+    f"{'Scenario':<12} | "
+    f"{'Phase':<10} | "
+    f"{'Temp':>6} | "
+    f"{'Gas':>7} | "
+    f"{'PIR':>3} | "
+    f"{'Layer 1':<20} | "
+    f"{'Layer 2 ML':<16} | "
+    f"{'Conf':>5} | "
+    f"{'Match'}"
+)
 print("-" * 75)
 
 for line in lines:
@@ -74,20 +109,27 @@ for line in lines:
     if not parsed:
         continue
 
-    time_s, temp, gas, presence, l1_status = parsed
+    time_s, temp, gas, presence, scenario_name, phase, l1_status = parsed
     temp_hist.append(temp)
     gas_hist.append(gas)
     pres_hist.append(presence)
 
     if len(temp_hist) < 5:
-        print(f"  {int(time_s):<4}s | {temp:>5.1f}C | {gas:>6.0f}ppm | "
-              f"{'YES' if presence else 'NO':>3} | "
-              f"{l1_status:<26} | {'Collecting...':<16}")
+        print(
+            f"{int(time_s):>4}s | "
+            f"{scenario_name:<12} | "
+            f"{phase:<10} | "
+            f"{temp:>5.1f}C | "
+            f"{gas:>6.0f}ppm | "
+            f"{'YES' if presence else 'NO':>3} | "
+            f"{l1_status:<20} | "
+            f"{'Collecting...':<16}"
+        )
         continue
 
-    features   = extract_features(temp_hist, gas_hist, pres_hist, time_s)
-    probs      = clf.predict_proba(features)[0]
-    pred_idx   = int(np.argmax(probs))
+    features = extract_features(temp_hist, gas_hist, pres_hist, time_s)
+    probs = clf.predict_proba(features)[0]
+    pred_idx = int(np.argmax(probs))
     confidence = float(probs[pred_idx] * 100)
 
     if confidence < CONF_THRESH:
@@ -99,9 +141,9 @@ for line in lines:
     l2_danger = (ml_label != "UNCERTAIN") and (pred_idx in [1, 2, 3, 4])
 
     if l2_danger and ml_fired_at is None:
-        ml_fired_at    = int(time_s)
+        ml_fired_at = int(time_s)
         ml_fired_label = ml_label
-        ml_fired_conf  = confidence
+        ml_fired_conf = confidence
 
     if l1_danger and l1_fired_at is None:
         l1_fired_at = int(time_s)
@@ -109,16 +151,34 @@ for line in lines:
     match = "✓" if (l1_danger == l2_danger) else "✗"
 
     rows_log.append({
-        'time': int(time_s), 'temp': temp, 'gas': gas, 'presence': presence,
-        'l1_status': l1_status, 'ml_label': ml_label, 'confidence': confidence,
-        'l1_danger': l1_danger, 'l2_danger': l2_danger, 'match': match
+        'time': int(time_s),
+        'temp': temp,
+        'gas': gas,
+        'presence': presence,
+        'scenario': scenario_name,
+        'phase': phase,
+        'l1_status': l1_status,
+        'ml_label': ml_label,
+        'confidence': confidence,
+        'l1_danger': l1_danger,
+        'l2_danger': l2_danger,
+        'match': match
     })
 
-    print(f"  {int(time_s):<4}s | {temp:>5.1f}C | {gas:>6.0f}ppm | "
-          f"{'YES' if presence else 'NO':>3} | "
-          f"{l1_status:<26} | {ml_label:<16} | {confidence:>4.0f}% | {match}")
+    print(
+        f"{int(time_s):>4}s | "
+        f"{scenario_name:<12} | "
+        f"{phase:<10} | "
+        f"{temp:>5.1f}C | "
+        f"{gas:>6.0f}ppm | "
+        f"{'YES' if presence else 'NO':>3} | "
+        f"{l1_status:<20} | "
+        f"{ml_label:<16} | "
+        f"{confidence:>4.0f}% | "
+        f"{match}"
+    )
 
-# ── SUMMARY — built entirely from rows_log, no hardcoded values ──
+# ── SUMMARY ────────────────────────────────────────────────────
 print("-" * 75)
 print(f"\n  INTEGRATION RESULTS")
 print(f"  {'─'*40}")
@@ -143,7 +203,6 @@ elif ml_fired_at is not None:
 else:
     print(f"  Neither layer detected danger in this run.")
 
-# ── Agreement breakdown computed from rows_log, segment by segment ──
 print(f"\n  Agreement breakdown:")
 if rows_log:
     seg_start = rows_log[0]['time']
@@ -163,7 +222,7 @@ if rows_log:
 
 agree_count = sum(1 for r in rows_log if r['match'] == '✓')
 total_count = len(rows_log)
-agree_pct   = (agree_count / total_count * 100) if total_count else 0
+agree_pct = (agree_count / total_count * 100) if total_count else 0
 
 print(f"\n  Overall row-level agreement     : {agree_count}/{total_count} ({agree_pct:.0f}%)")
 

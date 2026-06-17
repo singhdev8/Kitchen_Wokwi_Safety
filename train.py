@@ -33,8 +33,15 @@ W  = 30
 CLASS_NAMES = ["Normal Cooking", "Milk Boilover",
                "Gas Leak", "Timeout Risk", "Flame-out"]
 
-FEATURE_COLS = ['mean_temp','mean_gas','dT_dt','dG_dt',
-                'max_temp','presence','time_norm']
+FEATURE_COLS = ['mean_temp',
+ 'mean_gas',
+ 'dT_dt',
+ 'dG_dt',
+ 'max_temp',
+ 'presence',
+ 'temp_std',
+ 'gas_std',
+ 'time_norm']
 
 # ════════════════════════════════════════════════════════════════
 # PART 1 — LAYER 1 SIMULATION
@@ -244,47 +251,62 @@ def gen_milk_boilover():
     return t, temp, gas, np.ones(len(t))
 
 def gen_gas_leak():
+    ambient = np.random.uniform(22, 60)
+    noise = np.random.uniform(1.0, 4.0)
+    gas_start = np.random.uniform(100, 250)
 
-    ambient = np.random.uniform(22,60)
-
-    noise = np.random.uniform(1.0,4.0)
-
-    gas_start = np.random.uniform(100,250)
-
-    gas_rate = np.random.uniform(0.1,0.5)
-
-    t = np.arange(0,np.random.randint(600,1200),dt)
+    t = np.arange(0, np.random.randint(600, 1200), dt)
 
     temp = ambient
+    temp += 10 * np.sin(t / 120)
+    temp += np.random.randn(len(t)) * noise
 
-    temp += 10*np.sin(t/120)
+    # Initialize gas as a numpy array filled with gas_start
+    gas = np.full(len(t), gas_start)
 
-    temp += np.random.randn(len(t))*noise
+    for i in range(len(t)):
+        if i < len(t) * 0.4:
+            gas[i] = gas_start + 0.05 * i
+        elif i < len(t) * 0.7:
+            gas[i] = gas_start + 0.15 * i
+        else:
+            gas[i] = gas_start + 0.5 * i
 
-    gas = gas_start + gas_rate*t
+    gas += np.random.randn(len(t)) * 10
 
-    gas += np.random.randn(len(t))*10
+    presence = np.random.choice([0, 1], size=len(t), p=[0.45, 0.55])
 
-    presence = np.random.choice(
-    [0,1],
-    size=len(t),
-    p=[0.45,0.55]
-    )
+    return t, temp, gas, presence
 
-    return t,temp,gas,presence
+
 
 def gen_timeout():
     ambient  = 24 + np.random.uniform(-3, 3)
     tau      = np.random.uniform(250, 400)
     rise     = np.random.uniform(40, 60)
-    noise = np.random.uniform(1.0, 4.0)
+    noise    = np.random.uniform(1.0, 4.0)
+
     gas_base = np.random.uniform(300, 320)
     gas_amp  = np.random.uniform(8, 20)
+
     leave_t  = np.random.randint(400, 800)
+
     t = np.arange(0, np.random.randint(1200, 2200), dt)
-    temp = rise*(1-np.exp(-t/tau)) + ambient + np.random.randn(len(t))*noise
-    gas  = gas_base + gas_amp*np.sin(t/np.random.uniform(50, 70))
-    return t, temp, gas, np.where(t < leave_t, 1, 0)
+
+    temp = rise*(1-np.exp(-t/tau)) + ambient
+    temp += np.random.randn(len(t))*noise
+
+    gas = gas_base + gas_amp*np.sin(t/np.random.uniform(50, 70))
+
+    # Person leaves kitchen
+    presence = np.where(t < leave_t, 1, 0)
+
+    # PIR sensor noise / brief re-detections
+    for _ in range(20):
+        idx = np.random.randint(0, len(t))
+        presence[idx] = 1 - presence[idx]
+
+    return t, temp, gas, presence
 
 def gen_flame_out():
     ambient  = 25 + np.random.uniform(-3, 3)
@@ -318,11 +340,7 @@ def extract_features(t, temp, gas, presence, W):
     for i in range(W, len(t)):
         wt = temp[i-W:i]; wg = gas[i-W:i]; wp = presence[i-W:i]
         X.append([
-            np.mean(wt), np.mean(wg),
-            np.polyfit(np.arange(W), wt, 1)[0],
-            np.polyfit(np.arange(W), wg, 1)[0],
-            np.max(wt), np.mean(wp), t[i]/t[-1]
-        ])
+        np.mean(wt),np.mean(wg),np.polyfit(np.arange(W), wt, 1)[0],np.polyfit(np.arange(W), wg, 1)[0],np.max(wt),np.mean(wp),np.std(wt),np.std(wg),t[i]/t[-1]])
     return np.array(X)
 
 # ── Build dataset ─────────────────────────────────────────────
@@ -370,11 +388,10 @@ else:
 X_tr, X_te, y_tr, y_te = train_test_split(
     X_train_data, y_train_data, test_size=0.2, random_state=42,
     stratify=y_train_data)
-
 clf = RandomForestClassifier(
-    n_estimators=200,
-    max_depth=7,
-    min_samples_leaf=4,
+    n_estimators=100,          # reduced from 200
+    max_depth=5,               # reduced from 7
+    min_samples_leaf=10,       # increased from 4
     class_weight='balanced',
     random_state=42
 )
@@ -405,11 +422,11 @@ print(f"✅ Saved: outputs/confusion_matrix.png")
 
 # ── Feature importance ────────────────────────────────────────
 FEATURE_NAMES = ["Mean Temp","Mean Gas","dT/dt","dG/dt",
-                 "Max Temp","Presence","Time (norm)"]
+                 "Max Temp","Presence","Temp Std","Gas Std","Time (norm)"]
 importances = clf.feature_importances_
 order = np.argsort(importances)[::-1]
 fig, ax = plt.subplots(figsize=(9, 5))
-colors = ['#d62728' if i==order[0] else '#1f77b4' for i in range(7)]
+colors = ['#d62728' if i==order[0] else '#1f77b4' for i in range(9)]
 bars = ax.bar([FEATURE_NAMES[i] for i in order], importances[order]*100,
               color=[colors[r] for r,_ in enumerate(order)])
 ax.set_ylabel("Feature Importance (%)")
