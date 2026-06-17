@@ -11,7 +11,7 @@
 // ── THRESHOLDS ───────────────────────────────────────────────
 #define TEMP_BOILOVER   88.0
 #define TEMP_RISE_RATE  0.25
-#define GAS_LEAK_THRESH 400.0
+#define GAS_LEAK_THRESH 350.0
 #define TEMP_DROP_RATE  -0.5
 #define TIMEOUT_LIMIT   90     // FIX 2: Reduced to 90s for simulation
 

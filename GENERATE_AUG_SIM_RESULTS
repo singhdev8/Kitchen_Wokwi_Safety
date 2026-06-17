@@ -1,0 +1,190 @@
+import numpy as np
+import os
+import random
+
+# ── CONFIGURATION ──────────────────────────────────────────────
+OUTPUT_DIR = "wokwi_sim"
+BASE_NAME = "serial"
+
+RUNS = {
+    "GAS_LEAK": 25,          # increase this to get more varied gas leak data
+    "NORMAL_COOKING": 5,
+    "MILK_BOILOVER": 10,
+    "TIMEOUT_RISK": 2,
+    "FLAME_OUT": 10,
+}
+
+# ── HELPER ────────────────────────────────────────────────────
+def write_serial(f, t, temp, gas, presence, scenario, phase, status="SAFE"):
+    pir_str = "YES" if presence else "NO"
+    f.write(f"{t}|{temp:.1f}|{gas:.0f}|{pir_str}|{scenario}|{phase}|{status}\n")
+
+# ── GAS LEAK GENERATOR (with lots of variation) ──────────────
+def gen_gas_leak(run_id):
+    # Randomise parameters to cover many patterns
+    ambient_temp = np.random.uniform(22, 35)
+    gas_start = np.random.uniform(80, 200)          # low initial gas
+    leak_rate = np.random.uniform(0.5, 2.5)         # slow to moderate leak
+    total_time = np.random.randint(250, 500)        # longer logs give more samples
+    presence_prob = np.random.uniform(0.2, 0.9)     # mix of presence
+
+    # Phase boundaries (early building phase should be long enough)
+    building_duration = np.random.randint(40, 120)
+    dangerous_start = building_duration + np.random.randint(30, 150)
+
+    # Add some noise to temperature to mimic sensor noise
+    temp_noise = np.random.uniform(0.5, 2.0)
+
+    with open(f"{OUTPUT_DIR}/{BASE_NAME}_gasleak_{run_id:03d}.txt", "w") as f:
+        for t in range(1, total_time + 1):
+            # Temperature: ambient + small drift + sine variation + noise
+            temp = (ambient_temp 
+                    + 0.01 * t * np.random.uniform(-0.5, 0.5)   # slow drift
+                    + 3 * np.sin(t / 50)                       # cyclic variation
+                    + np.random.randn() * temp_noise)
+
+            # Gas: exponential or linear rise with randomness
+            # Use a piecewise linear rise to mimic real sensor
+            if t < building_duration:
+                gas = gas_start + leak_rate * t * 0.6 + np.random.randn() * 8
+                phase = "Gas Building"
+            elif t < dangerous_start:
+                gas = gas_start + leak_rate * t * 0.9 + np.random.randn() * 12
+                phase = "Gas Building"
+            else:
+                gas = gas_start + leak_rate * t * 1.3 + np.random.randn() * 18
+                phase = "Dangerous Level"
+
+            # Occasionally add a small positive offset to avoid zero
+            gas = max(10, gas)
+            gas = min(800, gas)   # cap
+
+            presence = np.random.rand() < presence_prob
+
+            # Status is always SAFE until rule engine fires (but we don't simulate rule here)
+            write_serial(f, t, temp, gas, presence, "GAS_LEAK", phase)
+
+# ── NORMAL COOKING ────────────────────────────────────────────
+def gen_normal_cooking(run_id):
+    ambient = np.random.uniform(20, 28)
+    final_temp = np.random.uniform(60, 80)
+    heat_time = np.random.randint(60, 180)   # time to reach final temp
+    total_time = heat_time + np.random.randint(60, 200)
+    gas_base = np.random.uniform(280, 330)
+    gas_amp = np.random.uniform(5, 20)
+
+    with open(f"{OUTPUT_DIR}/{BASE_NAME}_normal_{run_id:03d}.txt", "w") as f:
+        for t in range(1, total_time + 1):
+            # Temperature: rises then steadies
+            if t < heat_time:
+                temp = ambient + (final_temp - ambient) * (1 - np.exp(-t / (heat_time/3)))
+            else:
+                temp = final_temp + np.random.randn() * 2
+
+            temp += np.random.randn() * 1.5
+            gas = gas_base + gas_amp * np.sin(t / np.random.uniform(20, 50)) + np.random.randn() * 8
+
+            presence = np.random.rand() > 0.15
+            phase = "Heating" if t < heat_time else "Steady"
+            write_serial(f, t, temp, gas, presence, "NORMAL_COOKING", phase)
+
+# ── MILK BOILOVER ─────────────────────────────────────────────
+def gen_milk_boilover(run_id):
+    ambient = np.random.uniform(22, 28)
+    rise_rate = np.random.uniform(1.5, 3.0)   # degrees per second
+    total_time = np.random.randint(150, 350)
+    gas_base = np.random.uniform(300, 330)
+    gas_amp = np.random.uniform(5, 15)
+
+    with open(f"{OUTPUT_DIR}/{BASE_NAME}_boilover_{run_id:03d}.txt", "w") as f:
+        for t in range(1, total_time + 1):
+            # Exponential rise to 95°C then overshoot
+            temp = ambient + 70 * (1 - np.exp(-t / 20)) + np.random.randn() * 2
+            gas = gas_base + gas_amp * np.sin(t / 25) + np.random.randn() * 4
+            presence = True
+
+            if temp < 75:
+                phase = "Heating"
+            elif temp < 88:
+                phase = "Approaching Boil"
+            else:
+                phase = "Boiling Over"
+
+            write_serial(f, t, temp, gas, presence, "BOILOVER", phase)
+
+# ── TIMEOUT RISK ──────────────────────────────────────────────
+def gen_timeout_risk(run_id):
+    ambient = np.random.uniform(22, 28)
+    final_temp = np.random.uniform(55, 70)
+    heat_time = np.random.randint(40, 120)
+    leave_time = heat_time + np.random.randint(20, 100)
+    total_time = leave_time + np.random.randint(50, 200)
+
+    with open(f"{OUTPUT_DIR}/{BASE_NAME}_timeout_{run_id:03d}.txt", "w") as f:
+        for t in range(1, total_time + 1):
+            if t < heat_time:
+                temp = ambient + (final_temp - ambient) * (1 - np.exp(-t / 20))
+            else:
+                temp = final_temp + np.random.randn() * 2
+
+            temp += np.random.randn() * 1.5
+            gas = 300 + 15 * np.sin(t / 30) + np.random.randn() * 5
+
+            if t < leave_time:
+                presence = True
+                phase = "Present"
+            else:
+                presence = False
+                phase = "Unattended"
+
+            write_serial(f, t, temp, gas, presence, "TIMEOUT_RISK", phase)
+
+# ── FLAME OUT ──────────────────────────────────────────────────
+def gen_flame_out(run_id):
+    ambient = np.random.uniform(22, 28)
+    peak_temp = np.random.uniform(70, 85)
+    rise_time = np.random.randint(60, 150)
+    drop_time = np.random.randint(30, 90)
+    total_time = rise_time + drop_time + np.random.randint(20, 80)
+    gas_rise_rate = np.random.uniform(1.0, 3.0)
+
+    with open(f"{OUTPUT_DIR}/{BASE_NAME}_flameout_{run_id:03d}.txt", "w") as f:
+        for t in range(1, total_time + 1):
+            if t < rise_time:
+                temp = ambient + (peak_temp - ambient) * (1 - np.exp(-t / 30))
+                gas = 300 + np.random.randn() * 5
+                phase = "Heating"
+            elif t < rise_time + drop_time:
+                # Flame out: temperature drops, gas rises
+                elapsed = t - rise_time
+                temp = peak_temp - (peak_temp - ambient) * (1 - np.exp(-elapsed / 20))
+                gas = 300 + gas_rise_rate * elapsed + np.random.randn() * 8
+                phase = "Flame Out"
+            else:
+                temp = ambient + np.random.randn() * 2
+                gas = 350 + gas_rise_rate * (drop_time) + 1.2 * (t - rise_time - drop_time) + np.random.randn() * 10
+                phase = "Gas Leak"
+
+            presence = True
+            write_serial(f, t, temp, gas, presence, "FLAME_OUT", phase)
+
+# ── MAIN ──────────────────────────────────────────────────────
+if __name__ == "__main__":
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # Generate all scenarios with varying parameters
+    for scenario, count in RUNS.items():
+        gen_func = {
+            "GAS_LEAK": gen_gas_leak,
+            "NORMAL_COOKING": gen_normal_cooking,
+            "MILK_BOILOVER": gen_milk_boilover,
+            "TIMEOUT_RISK": gen_timeout_risk,
+            "FLAME_OUT": gen_flame_out,
+        }[scenario]
+
+        for i in range(1, count + 1):
+            gen_func(i)
+            print(f"Generated {scenario} run {i:02d}")
+
+    print(f"\n✅ All logs generated in '{OUTPUT_DIR}/'")
+    print("Now run: python3 pipeline.py")

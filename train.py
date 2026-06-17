@@ -251,80 +251,84 @@ def gen_milk_boilover():
     return t, temp, gas, np.ones(len(t))
 
 def gen_gas_leak():
-    ambient = np.random.uniform(22, 60)
-    noise = np.random.uniform(1.0, 4.0)
-    gas_start = np.random.uniform(100, 250)
+    # Match real log: temperature around 40-50°C, not ambient
+    ambient = np.random.uniform(40, 50)
+    gas_start = np.random.uniform(50, 200)
+    leak_rate = np.random.uniform(0.8, 2.5)
+    total_t = np.random.randint(200, 500)
+    t = np.arange(0, total_t, dt)
 
-    t = np.arange(0, np.random.randint(600, 1200), dt)
+    # Temperature: slightly above ambient with small drift and noise
+    temp = ambient + 0.01 * t + 3 * np.sin(t / 50) + np.random.randn(len(t)) * 1.5
 
-    temp = ambient
-    temp += 10 * np.sin(t / 120)
-    temp += np.random.randn(len(t)) * noise
+    # Gas: linear rise with moderate noise
+    gas = gas_start + leak_rate * t + np.random.randn(len(t)) * 8
+    gas = np.maximum(0, gas)
 
-    # Initialize gas as a numpy array filled with gas_start
-    gas = np.full(len(t), gas_start)
-
-    for i in range(len(t)):
-        if i < len(t) * 0.4:
-            gas[i] = gas_start + 0.05 * i
-        elif i < len(t) * 0.7:
-            gas[i] = gas_start + 0.15 * i
-        else:
-            gas[i] = gas_start + 0.5 * i
-
-    gas += np.random.randn(len(t)) * 10
-
-    presence = np.random.choice([0, 1], size=len(t), p=[0.45, 0.55])
+    # Presence: usually YES (like real log)
+    presence = np.random.choice([0, 1], size=len(t), p=[0.15, 0.85])
 
     return t, temp, gas, presence
 
-
-
 def gen_timeout():
-    ambient  = 24 + np.random.uniform(-3, 3)
-    tau      = np.random.uniform(250, 400)
-    rise     = np.random.uniform(40, 60)
-    noise    = np.random.uniform(1.0, 4.0)
-
+    ambient = np.random.uniform(24, 28)
+    tau = np.random.uniform(250, 400)
+    rise = np.random.uniform(40, 60)
+    noise = np.random.uniform(1.0, 4.0)
     gas_base = np.random.uniform(300, 320)
-    gas_amp  = np.random.uniform(8, 20)
-
-    leave_t  = np.random.randint(400, 800)
-
-    t = np.arange(0, np.random.randint(1200, 2200), dt)
-
-    temp = rise*(1-np.exp(-t/tau)) + ambient
-    temp += np.random.randn(len(t))*noise
-
-    gas = gas_base + gas_amp*np.sin(t/np.random.uniform(50, 70))
-
-    # Person leaves kitchen
+    gas_amp = np.random.uniform(8, 20)
+    
+    # Person leaves AFTER temperature has risen
+    leave_t = np.random.randint(400, 800)
+    total_t = np.random.randint(1200, 2200)
+    t = np.arange(0, total_t, dt)
+    
+    # Temperature rises and then stabilises
+    temp = rise * (1 - np.exp(-t / tau)) + ambient
+    temp += np.random.randn(len(t)) * noise
+    
+    # Gas is always > 200 ppm (stove is on) and add noise to make it realistic
+    gas = gas_base + gas_amp * np.sin(t / np.random.uniform(50, 70))
+    gas += np.random.randn(len(t)) * 10   # added noise
+    gas = np.maximum(200, gas)            # ensure gas is always above 200 when cooking
+    
+    # Presence: YES while cooking, then NO after leave_t
     presence = np.where(t < leave_t, 1, 0)
-
-    # PIR sensor noise / brief re-detections
+    
+    # Add some brief re-detections (sensor noise)
     for _ in range(20):
         idx = np.random.randint(0, len(t))
         presence[idx] = 1 - presence[idx]
-
+    
     return t, temp, gas, presence
 
 def gen_flame_out():
-    ambient  = 25 + np.random.uniform(-3, 3)
+    ambient = np.random.uniform(25, 30)
     rise     = np.random.uniform(50, 70)
     rise_tau = np.random.uniform(120, 180)
     drop_tau = np.random.uniform(70, 130)
-    noise = np.random.uniform(1.0, 4.0)
+    noise    = np.random.uniform(1.0, 4.0)
     gas_base = np.random.uniform(290, 310)
     gas_rate = np.random.uniform(1.0, 2.0)
     switch_t = np.random.randint(250, 350)
     total_t  = np.random.randint(500, 700)
     t = np.arange(0, total_t, dt)
+    
+    # Temperature: rises then drops
     temp = np.where(t < switch_t,
-                    ambient + rise*(1-np.exp(-t/rise_tau)),
-                    (ambient+rise)*np.exp(-(t-switch_t)/drop_tau) + ambient - 3)
-    temp += np.random.randn(len(t))*noise
-    gas  = np.where(t < switch_t, gas_base, gas_base + gas_rate*(t-switch_t))
-    return t, temp, gas, np.ones(len(t))
+                    ambient + rise * (1 - np.exp(-t / rise_tau)),
+                    (ambient + rise) * np.exp(-(t - switch_t) / drop_tau) + ambient - 3)
+    temp += np.random.randn(len(t)) * noise
+    temp = np.maximum(ambient, temp)   # never below ambient
+    
+    # Gas: steady during heating, then rises after flame out
+    gas = np.where(t < switch_t,
+                   gas_base + np.random.randn(len(t)) * 5,
+                   gas_base + gas_rate * (t - switch_t) + np.random.randn(len(t)) * 8)
+    gas = np.maximum(0, gas)
+    
+    presence = np.ones(len(t))
+    return t, temp, gas, presence
 
 GENERATORS = [
     (gen_normal_cooking, 0, "Normal Cooking"),
@@ -343,20 +347,28 @@ def extract_features(t, temp, gas, presence, W):
         np.mean(wt),np.mean(wg),np.polyfit(np.arange(W), wt, 1)[0],np.polyfit(np.arange(W), wg, 1)[0],np.max(wt),np.mean(wp),np.std(wt),np.std(wg),t[i]/t[-1]])
     return np.array(X)
 
-# ── Build dataset ─────────────────────────────────────────────
-RUNS = 4
+# ── Build dataset with per‑class runs ─────────────────────────
+RUNS_PER_CLASS = {
+    0: 6,   # Normal Cooking
+    1: 6,   # Milk Boilover
+    2: 20,  # Gas Leak (boosted)
+    3: 6,   # Timeout Risk
+    4: 6,   # Flame-out
+}
+
 X_all, y_all = [], []
 print("Generating synthetic dataset...")
 
 for (gen_fn, label, name) in GENERATORS:
     total = 0
-    for _ in range(RUNS):
+    runs = RUNS_PER_CLASS[label]
+    for _ in range(runs):
         t, temp, gas, presence = gen_fn()
         Xsc = extract_features(t, temp, gas, presence, W)
         X_all.append(Xsc)
         y_all.append(np.full(len(Xsc), label))
         total += len(Xsc)
-    print(f"  {name:<20} → {RUNS} runs, {total} samples")
+    print(f"  {name:<20} → {runs} runs, {total} samples")
 
 X = np.vstack(X_all)
 y = np.concatenate(y_all)
@@ -388,10 +400,11 @@ else:
 X_tr, X_te, y_tr, y_te = train_test_split(
     X_train_data, y_train_data, test_size=0.2, random_state=42,
     stratify=y_train_data)
+
 clf = RandomForestClassifier(
-    n_estimators=100,          # reduced from 200
-    max_depth=5,               # reduced from 7
-    min_samples_leaf=10,       # increased from 4
+    n_estimators=100,
+    max_depth=6,
+    min_samples_leaf=10,
     class_weight='balanced',
     random_state=42
 )

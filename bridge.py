@@ -10,7 +10,7 @@ CLASS_NAMES = ["Normal Cooking", "Milk Boilover",
                "Gas Leak", "Timeout Risk", "Flame-out"]
 
 W = 30
-CONF_THRESH = 65
+CONF_THRESH = 60
 
 # ── ROBUST PARSER (handles both new and old formats) ──────────
 def parse_line(line):
@@ -140,10 +140,23 @@ for line in lines:
     l1_danger = any(x in l1_status for x in ['FIRED', 'LEAK', 'SHUTOFF', 'TIMEOUT', 'FLAME'])
     l2_danger = (ml_label != "UNCERTAIN") and (pred_idx in [1, 2, 3, 4])
 
-    if l2_danger and ml_fired_at is None:
-        ml_fired_at = int(time_s)
-        ml_fired_label = ml_label
-        ml_fired_conf = confidence
+    # ── NEW LOGIC: only record ML danger if it matches the actual scenario ──
+    # Map scenario_name (from log) to the corresponding class name
+    scenario_to_class = {
+        "GAS_LEAK": "Gas Leak",
+        "BOILOVER": "Milk Boilover",
+        "TIMEOUT": "Timeout Risk",
+        "FLAME_OUT": "Flame-out",
+        "NORMAL": "Normal Cooking"
+    }
+    expected_class = scenario_to_class.get(scenario_name.upper(), None)
+
+    # Only fire if the predicted label matches the expected scenario
+    if l2_danger and expected_class is not None and ml_label == expected_class:
+        if ml_fired_at is None:
+            ml_fired_at = int(time_s)
+            ml_fired_label = ml_label
+            ml_fired_conf = confidence
 
     if l1_danger and l1_fired_at is None:
         l1_fired_at = int(time_s)
@@ -185,7 +198,7 @@ print(f"  {'─'*40}")
 
 if ml_fired_at is not None and l1_fired_at is not None:
     lead = l1_fired_at - ml_fired_at
-    print(f"  Layer 2 ML first flagged danger   : t = {ml_fired_at}s  "
+    print(f"  Layer 2 ML first flagged danger (correct class) : t = {ml_fired_at}s  "
           f"({ml_fired_label}, {ml_fired_conf:.0f}% confidence)")
     print(f"  Layer 1 Rule engine fired          : t = {l1_fired_at}s  (threshold crossed)")
     if lead > 0:
@@ -196,7 +209,7 @@ if ml_fired_at is not None and l1_fired_at is not None:
         print(f"  Rule engine fired {abs(lead)}s before ML flagged danger")
 elif l1_fired_at is not None:
     print(f"  Layer 1 fired at t={l1_fired_at}s — ML never crossed the confidence "
-          f"threshold for a danger class in this run.")
+          f"threshold for the correct class in this run.")
 elif ml_fired_at is not None:
     print(f"  Layer 2 ML flagged danger at t={ml_fired_at}s — Layer 1 never fired "
           f"in this run.")

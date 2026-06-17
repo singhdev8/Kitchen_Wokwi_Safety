@@ -168,9 +168,9 @@ X_tr,X_te,y_tr,y_te = train_test_split(
     X, y, test_size=0.2, random_state=42, stratify=y)
 
 clf = RandomForestClassifier(
-    n_estimators=100,          # reduced from 200
-    max_depth=5,               # reduced from 7
-    min_samples_leaf=10,       # increased from 4
+    n_estimators=100,
+    max_depth=6,              # slightly shallower
+    min_samples_leaf=10,      # larger leaf size = more regularisation
     class_weight='balanced',
     random_state=42
 )
