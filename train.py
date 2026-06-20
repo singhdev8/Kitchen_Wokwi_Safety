@@ -469,7 +469,13 @@ t = np.arange(0, 3000, dt)
 temp     = np.zeros(len(t))
 gas      = np.zeros(len(t))
 presence = np.zeros(len(t))
+
+# Anchor values at phase boundaries so the curve is continuous —
+# previously Phase 3 hardcoded a start value (95) that didn't match
+# where Phase 2 actually ended, causing a ~19°C jump at t=900s.
 temp_at_500 = 82*(1-np.exp(-500/400)) + 25
+temp_at_900 = temp_at_500 + (105 - temp_at_500) * (1 - np.exp(-400/120))
+gas_at_900  = 310 + 10*np.sin(900/60)
 
 for i, ti in enumerate(t):
     if ti < 500:
@@ -483,8 +489,10 @@ for i, ti in enumerate(t):
         presence[i] = 1
     else:
         elapsed     = ti - 900
-        temp[i]     = 95*np.exp(-elapsed/800) + 28 + np.random.randn()*0.3
-        gas[i]      = 310 + 0.05*elapsed
+        # Decay starts from temp_at_900/gas_at_900, not a hardcoded value,
+        # so the curve is continuous across the t=900s boundary.
+        temp[i]     = 28 + (temp_at_900 - 28)*np.exp(-elapsed/800) + np.random.randn()*0.3
+        gas[i]      = gas_at_900 + 0.05*elapsed
         presence[i] = 0
 
 PRED_WINDOW=30; HORIZON=60; OVERFLOW_THRESH=100; BURN_THRESH=95
@@ -513,8 +521,11 @@ for i in range(PRED_WINDOW, len(t)):
         no_pres_timer = 0
     p_forget[i] = 1 - np.exp(-K_FORGET*no_pres_timer)
 
-lead_time = overflow_actual_t - overflow_pred_t \
-            if (overflow_pred_t and overflow_actual_t) else None
+# Fixed: was "if (overflow_pred_t and overflow_actual_t)" which is a
+# truthiness check — silently fails if either value is ever 0.0.
+# Should explicitly check for None.
+lead_time = (overflow_actual_t - overflow_pred_t) \
+            if (overflow_pred_t is not None and overflow_actual_t is not None) else None
 
 print(f"  Overflow predicted at : t = {overflow_pred_t}s")
 print(f"  Overflow actual at    : t = {overflow_actual_t}s")
