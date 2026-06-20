@@ -344,7 +344,7 @@ def extract_features(t, temp, gas, presence, W):
     for i in range(W, len(t)):
         wt = temp[i-W:i]; wg = gas[i-W:i]; wp = presence[i-W:i]
         X.append([
-        np.mean(wt),np.mean(wg),np.polyfit(np.arange(W), wt, 1)[0],np.polyfit(np.arange(W), wg, 1)[0],np.max(wt),np.mean(wp),np.std(wt),np.std(wg),t[i]/t[-1]])
+        np.mean(wt),np.mean(wg),np.polyfit(np.arange(W), wt, 1)[0],np.polyfit(np.arange(W), wg, 1)[0],np.max(wt),np.mean(wp),np.std(wt),np.std(wg),min(t[i]/1200.0, 1.0)])  # <-- FIX: use fixed 1200s instead of t[-1]
     return np.array(X)
 
 # ── Build dataset with per‑class runs ─────────────────────────
