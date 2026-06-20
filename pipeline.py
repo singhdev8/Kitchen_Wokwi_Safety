@@ -87,7 +87,7 @@ def extract_from_log(filepath, label):
         if p: tih.append(p[0]); th.append(p[1]); gh.append(p[2]); ph.append(p[3])
     if len(th) <= W: return pd.DataFrame()
     rows = []
-    total_t = tih[-1] if tih[-1] > 0 else 1
+    # total_t = tih[-1] if tih[-1] > 0 else 1   # no longer needed; using fixed 1200
     for i in range(W, len(th)):
         wt=np.array(th[i-W:i]); wg=np.array(gh[i-W:i]); wp=np.array(ph[i-W:i])
         rows.append({
@@ -97,7 +97,7 @@ def extract_from_log(filepath, label):
             'max_temp':  np.max(wt),  'presence': np.mean(wp),
             'temp_std': np.std(wt),
             'gas_std': np.std(wg),
-            'time_norm': min(tih[i]/total_t, 1.0),
+            'time_norm': min(tih[i]/1200.0, 1.0),   # <-- FIX: use fixed 1200s instead of total_t
             'label': label, 'class_name': CLASS_NAMES[label],
             'source': os.path.basename(filepath)
         })
